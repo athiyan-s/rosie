@@ -1,0 +1,12 @@
+action/AiCamera.action
+action/AiCamera.idl
+action/FoodMenu.action
+action/FoodMenu.idl
+action/GoTo.action
+action/GoTo.idl
+action/SendCoordinates.action
+action/SendCoordinates.idl
+msg/DistanceAngle.idl
+msg/DistanceAngle.msg
+msg/Food.idl
+msg/Food.msg

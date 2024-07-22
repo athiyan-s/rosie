@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "prototype__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/prototype")

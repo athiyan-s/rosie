@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_generator_c/prototype/msg/detail/distance_angle__struct.h

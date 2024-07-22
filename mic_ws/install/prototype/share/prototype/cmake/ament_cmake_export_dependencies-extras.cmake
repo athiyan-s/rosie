@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

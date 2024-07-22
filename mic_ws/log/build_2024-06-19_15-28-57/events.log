@@ -1,0 +1,469 @@
+[0.000000] (-) TimerEvent: {}
+[0.001873] (ai_client) JobQueued: {'identifier': 'ai_client', 'dependencies': OrderedDict()}
+[0.002454] (prototype) JobQueued: {'identifier': 'prototype', 'dependencies': OrderedDict()}
+[0.003006] (ai_client) JobStarted: {'identifier': 'ai_client'}
+[0.032342] (prototype) JobStarted: {'identifier': 'prototype'}
+[0.058819] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'cmake'}
+[0.063120] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'build'}
+[0.065690] (ai_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosievoice/main_ws/mic_ws/build/ai_client', '--', '-j4', '-l4'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.29.49 60722 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e0519-e14f-4fb1-8aa3-aeaba26b07e2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-731f22e707.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/ai_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.49 60722 192.168.29.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages:/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble')]), 'shell': False}
+[0.083738] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'cmake'}
+[0.087961] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'build'}
+[0.095822] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosievoice/main_ws/mic_ws/build/prototype', '--', '-j4', '-l4'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.29.49 60722 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e0519-e14f-4fb1-8aa3-aeaba26b07e2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-731f22e707.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.49 60722 192.168.29.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages:/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble')]), 'shell': False}
+[0.103481] (-) TimerEvent: {}
+[0.204254] (-) TimerEvent: {}
+[0.305244] (-) TimerEvent: {}
+[0.333971] (ai_client) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_ai_client\n'}
+[0.370305] (prototype) StdoutLine: {'line': b'[  1%] Built target prototype__cpp\n'}
+[0.405428] (-) TimerEvent: {}
+[0.408630] (prototype) StdoutLine: {'line': b'[ 12%] Built target prototype__rosidl_generator_c\n'}
+[0.418664] (prototype) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_prototype\n'}
+[0.505598] (-) TimerEvent: {}
+[0.538865] (prototype) StdoutLine: {'line': b'[ 23%] Built target prototype__rosidl_typesupport_cpp\n'}
+[0.563974] (prototype) StdoutLine: {'line': b'[ 35%] Built target prototype__rosidl_typesupport_fastrtps_cpp\n'}
+[0.585770] (prototype) StdoutLine: {'line': b'[ 46%] Built target prototype__rosidl_typesupport_fastrtps_c\n'}
+[0.599704] (prototype) StdoutLine: {'line': b'[ 57%] Built target prototype__rosidl_typesupport_introspection_cpp\n'}
+[0.605861] (-) TimerEvent: {}
+[0.707818] (-) TimerEvent: {}
+[0.721951] (prototype) StdoutLine: {'line': b'[ 69%] Built target prototype__rosidl_typesupport_c\n'}
+[0.728228] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype__rosidl_typesupport_introspection_c\n'}
+[0.809882] (-) TimerEvent: {}
+[0.834984] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype\n'}
+[0.915540] (-) TimerEvent: {}
+[0.980657] (prototype) StdoutLine: {'line': b'[ 81%] Built target prototype__py\n'}
+[1.015751] (-) TimerEvent: {}
+[1.118460] (-) TimerEvent: {}
+[1.127355] (prototype) StdoutLine: {'line': b'[ 91%] Built target prototype__rosidl_generator_py\n'}
+[1.218655] (-) TimerEvent: {}
+[1.262708] (prototype) StdoutLine: {'line': b'[ 94%] Built target prototype__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.312581] (prototype) StdoutLine: {'line': b'[ 97%] Built target prototype__rosidl_typesupport_c__pyext\n'}
+[1.318975] (-) TimerEvent: {}
+[1.324403] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_introspection_c__pyext\n'}
+[1.419154] (-) TimerEvent: {}
+[1.519872] (-) TimerEvent: {}
+[1.622631] (-) TimerEvent: {}
+[1.723361] (-) TimerEvent: {}
+[1.824376] (-) TimerEvent: {}
+[1.867483] (ai_client) StdoutLine: {'line': b'running egg_info\n'}
+[1.871311] (ai_client) StdoutLine: {'line': b'writing ai_client.egg-info/PKG-INFO\n'}
+[1.872605] (ai_client) StdoutLine: {'line': b'writing dependency_links to ai_client.egg-info/dependency_links.txt\n'}
+[1.873833] (ai_client) StdoutLine: {'line': b'writing top-level names to ai_client.egg-info/top_level.txt\n'}
+[1.883793] (ai_client) StdoutLine: {'line': b"reading manifest file 'ai_client.egg-info/SOURCES.txt'\n"}
+[1.886804] (ai_client) StdoutLine: {'line': b"writing manifest file 'ai_client.egg-info/SOURCES.txt'\n"}
+[1.924666] (-) TimerEvent: {}
+[2.013154] (prototype) StdoutLine: {'line': b'running egg_info\n'}
+[2.017099] (prototype) StdoutLine: {'line': b'writing prototype.egg-info/PKG-INFO\n'}
+[2.019029] (prototype) StdoutLine: {'line': b'writing dependency_links to prototype.egg-info/dependency_links.txt\n'}
+[2.021107] (prototype) StdoutLine: {'line': b'writing top-level names to prototype.egg-info/top_level.txt\n'}
+[2.024877] (-) TimerEvent: {}
+[2.028213] (ai_client) StdoutLine: {'line': b'Built target ament_cmake_python_build_ai_client_egg\n'}
+[2.034867] (prototype) StdoutLine: {'line': b"reading manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[2.039666] (prototype) StdoutLine: {'line': b"writing manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[2.087685] (ai_client) CommandEnded: {'returncode': 0}
+[2.125449] (-) TimerEvent: {}
+[2.184110] (prototype) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_prototype_egg\n'}
+[2.220558] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'install'}
+[2.225701] (-) TimerEvent: {}
+[2.260601] (ai_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosievoice/main_ws/mic_ws/build/ai_client'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.29.49 60722 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e0519-e14f-4fb1-8aa3-aeaba26b07e2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-731f22e707.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/ai_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.49 60722 192.168.29.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages:/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble')]), 'shell': False}
+[2.266226] (prototype) CommandEnded: {'returncode': 0}
+[2.288940] (ai_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.291142] (ai_client) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.293401] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/launch/ai_client.launch.py\n'}
+[2.294413] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/launch/navigation.launch.py\n'}
+[2.296301] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/battery.xml\n'}
+[2.297217] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/follow_point.xml\n'}
+[2.298117] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/nav2_params.yaml\n'}
+[2.299036] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/navigate_to_pose_w_replanning_and_recovery.xml\n'}
+[2.299945] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/navigate_w_battery.xml\n'}
+[2.300761] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/output.json\n'}
+[2.304192] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/action_client_ai.py\n'}
+[2.306280] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/action_server_ai.py\n'}
+[2.308255] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/final_test.py\n'}
+[2.309210] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/kal_.py\n'}
+[2.309972] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/README\n'}
+[2.310934] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/am/final.mdl\n'}
+[2.311834] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/conf/mfcc.conf\n'}
+[2.312713] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/conf/model.conf\n'}
+[2.313591] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/Gr.fst\n'}
+[2.314502] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/HCLr.fst\n'}
+[2.315552] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/disambig_tid.int\n'}
+[2.317398] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/phones/word_boundary.int\n'}
+[2.318015] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.dubm\n'}
+[2.319799] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.ie\n'}
+[2.320584] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.mat\n'}
+[2.321800] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/global_cmvn.stats\n'}
+[2.322441] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/online_cmvn.conf\n'}
+[2.323100] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/splice.conf\n'}
+[2.323781] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/table_navigation.py\n'}
+[2.324381] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/test_.py\n'}
+[2.325218] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/vosk-model-small-en-in-0.4.zip\n'}
+[2.326595] (-) TimerEvent: {}
+[2.327862] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/ai_client/__init__.py\n'}
+[2.328766] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/ai_client/robot_navigator.py\n'}
+[2.329563] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/pythonpath.sh\n'}
+[2.330096] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/pythonpath.dsv\n'}
+[2.331512] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.334469] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.335976] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.336461] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.337079] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/__init__.py\n'}
+[2.337873] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/robot_navigator.py\n'}
+[2.338877] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/lib/ai_client/action_client_ai.py\n'}
+[2.340627] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/package_run_dependencies/ai_client\n'}
+[2.341547] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/parent_prefix_path/ai_client\n'}
+[2.342620] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/ament_prefix_path.sh\n'}
+[2.343627] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/ament_prefix_path.dsv\n'}
+[2.344694] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/path.sh\n'}
+[2.345967] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/path.dsv\n'}
+[2.346759] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.bash\n'}
+[2.347710] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.sh\n'}
+[2.348679] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.zsh\n'}
+[2.350112] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.dsv\n'}
+[2.351033] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.dsv\n'}
+[2.385984] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/packages/ai_client\n'}
+[2.387820] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/cmake/ai_clientConfig.cmake\n'}
+[2.389462] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/cmake/ai_clientConfig-version.cmake\n'}
+[2.390932] (ai_client) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.xml\n'}
+[2.426819] (-) TimerEvent: {}
+[2.528508] (-) TimerEvent: {}
+[2.571964] (ai_client) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client'...\n"}
+[2.594537] (ai_client) CommandEnded: {'returncode': 0}
+[2.628841] (-) TimerEvent: {}
+[2.729730] (-) TimerEvent: {}
+[2.830628] (-) TimerEvent: {}
+[2.902336] (ai_client) JobEnded: {'identifier': 'ai_client', 'rc': 0}
+[2.930866] (-) TimerEvent: {}
+[3.031720] (-) TimerEvent: {}
+[3.133057] (-) TimerEvent: {}
+[3.233984] (-) TimerEvent: {}
+[3.334871] (-) TimerEvent: {}
+[3.401706] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'install'}
+[3.403164] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosievoice/main_ws/mic_ws/build/prototype'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.29.49 60722 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-781e0519-e14f-4fb1-8aa3-aeaba26b07e2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-731f22e707.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.49 60722 192.168.29.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages:/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosievoice/main_ws/mic_ws/install/prototype:/home/rosievoice/main_ws/mic_ws/install/ai_client:/opt/ros/humble')]), 'shell': False}
+[3.435080] (-) TimerEvent: {}
+[3.442290] (prototype) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.446959] (prototype) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.450075] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/camera.yaml\n'}
+[3.451812] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf.yaml\n'}
+[3.452774] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf_map.yaml\n'}
+[3.453790] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/joystick.yaml\n'}
+[3.454976] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/motor_control.yaml\n'}
+[3.456354] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/mobilenet.json\n'}
+[3.458289] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/segmentation.json\n'}
+[3.459644] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/yolo.json\n'}
+[3.462667] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/rgbd.yaml\n'}
+[3.463279] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/spatial_bb.yaml\n'}
+[3.465447] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/twist_mux.yaml\n'}
+[3.467227] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/battery_state.launch.py\n'}
+[3.468507] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera.launch.py\n'}
+[3.471483] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_local.launch.py\n'}
+[3.472099] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_uncompressed_launch.py\n'}
+[3.474678] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/gui.launch.py\n'}
+[3.475446] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/hand_gesture.launch.py\n'}
+[3.476349] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/image_pro.py\n'}
+[3.476810] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/imu_launch.py\n'}
+[3.480741] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/joystick.launch.py\n'}
+[3.481213] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/laser_launch.py\n'}
+[3.483885] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/localization_launch.py\n'}
+[3.484388] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/main_launch.py\n'}
+[3.487956] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/motor_launch.py\n'}
+[3.488771] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/navigation.launch.py\n'}
+[3.489365] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/no_com_camera.launch.py\n'}
+[3.493098] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rgbd_pcl.launch.py\n'}
+[3.493754] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robot_localization_launch.py\n'}
+[3.494625] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robotmodel.launch.py\n'}
+[3.495271] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtab_odom.launch.py\n'}
+[3.499045] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtabmap.launch.py\n'}
+[3.499409] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rviz2_launch.py\n'}
+[3.499744] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/sensors_launch.py\n'}
+[3.500253] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spatial_bb.launch.py\n'}
+[3.501056] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn.launch.xml\n'}
+[3.501673] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn_pos.launch.py\n'}
+[3.506707] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/stereo.launch.py\n'}
+[3.507430] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/AiCamera.action\n'}
+[3.508041] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/FoodMenu.action\n'}
+[3.508869] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/GoTo.action\n'}
+[3.509444] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/SendCoordinates.action\n'}
+[3.510133] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//worlds/empty_world.world\n'}
+[3.515523] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/box_room.dae\n'}
+[3.516277] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/chambre.png\n'}
+[3.516910] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.config\n'}
+[3.522163] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.sdf\n'}
+[3.522991] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/camera.xacro\n'}
+[3.523575] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/hardware_interface.xacro\n'}
+[3.524434] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/joint_macros.xacro\n'}
+[3.524920] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/lidar.xacro\n'}
+[3.529735] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/link_macros.xacro\n'}
+[3.530364] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/prototype.xacro\n'}
+[3.532952] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/wheel.xacro\n'}
+[3.533417] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/camera.xacro\n'}
+[3.533973] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/hardware_interface.xacro\n'}
+[3.534423] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/joint_macros.xacro\n'}
+[3.538705] (-) TimerEvent: {}
+[3.539185] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/lidar.xacro\n'}
+[3.539940] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/link_macros.xacro\n'}
+[3.540557] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/prototype.xacro\n'}
+[3.543809] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/wheel.xacro\n'}
+[3.544387] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dazzling.stl\n'}
+[3.544923] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dbrakes2K.png\n'}
+[3.545406] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dreaotherothertex2K.png\n'}
+[3.549838] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dtire_rim_detail2Ktex.png\n'}
+[3.550671] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material Base Color.png\n'}
+[3.551054] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material.005 Base Color.png\n'}
+[3.554791] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(1).stl\n'}
+[3.555641] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(3).stl\n'}
+[3.556259] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh.stl\n'}
+[3.559778] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Wheels.dae\n'}
+[3.560321] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/blender_mesh.stl\n'}
+[3.561083] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane base.png\n'}
+[3.561651] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane stand.001.png\n'}
+[3.562410] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend\n'}
+[3.563041] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend1\n'}
+[3.566917] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.dae\n'}
+[3.567294] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_base.png\n'}
+[3.567876] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_stand.png\n'}
+[3.568360] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.blend\n'}
+[3.568719] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.dae\n'}
+[3.569255] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/first wheel.blend\n'}
+[3.569720] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/gear color.png\n'}
+[3.574922] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/lambert3_baseColor.png\n'}
+[3.575339] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/motor .png\n'}
+[3.575700] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.blend\n'}
+[3.576086] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.dae\n'}
+[3.576618] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/realsense.dae\n'}
+[3.577125] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidar.dae\n'}
+[3.578082] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidartexture.png\n'}
+[3.578766] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/textures/lambert3_baseColor.png\n'}
+[3.583513] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tinker.stl\n'}
+[3.584156] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tire_rubber_2K_NRM.png\n'}
+[3.585011] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/obj.mtl\n'}
+[3.585604] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/tinker.obj\n'}
+[3.591396] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__init__.py\n'}
+[3.591957] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/gesture_recognition.cpython-310.pyc\n'}
+[3.599067] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/robot_navigator.cpython-310.pyc\n'}
+[3.600020] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_client.py\n'}
+[3.600648] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_server.py\n'}
+[3.604310] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery.py\n'}
+[3.605177] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_boot.py\n'}
+[3.605731] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_test.py\n'}
+[3.609061] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/behaviours.py\n'}
+[3.609546] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/cvfpscalc.py\n'}
+[3.609863] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/data_gathering.py\n'}
+[3.610262] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/face.py\n'}
+[3.610767] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/gesture_recognition.py\n'}
+[3.614865] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/goal.py\n'}
+[3.615269] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand.py\n'}
+[3.615575] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand_sign_recognition.py\n'}
+[3.616031] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map.py\n'}
+[3.616507] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map_object.py\n'}
+[3.617168] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_laser.py\n'}
+[3.617881] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_shaft.py\n'}
+[3.618427] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/object_broadcast.py\n'}
+[3.622997] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/odom_base.py\n'}
+[3.623544] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/py_tree_server.py\n'}
+[3.624035] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robot_navigator.py\n'}
+[3.624608] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robotmodel.py\n'}
+[3.625127] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/service_velocity.py\n'}
+[3.625694] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/spatial.py\n'}
+[3.626228] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/string_sub.py\n'}
+[3.626944] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/test.py\n'}
+[3.627510] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/tf.py\n'}
+[3.627952] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.dot\n'}
+[3.631490] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.png\n'}
+[3.632195] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.svg\n'}
+[3.638913] (-) TimerEvent: {}
+[3.639435] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//rviz/localizer_rviz_config.rviz\n'}
+[3.640044] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/DistanceAngle.msg\n'}
+[3.640671] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/Food.msg\n'}
+[3.641051] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_laser.py\n'}
+[3.641592] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_shaft.py\n'}
+[3.642305] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/action_client.py\n'}
+[3.643097] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/rosidl_interfaces/prototype\n'}
+[3.648204] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.h\n'}
+[3.648585] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__functions.h\n'}
+[3.648911] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.h\n'}
+[3.649342] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__type_support.h\n'}
+[3.649693] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__functions.h\n'}
+[3.650077] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.h\n'}
+[3.651432] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__type_support.h\n'}
+[3.652350] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__functions.h\n'}
+[3.652879] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.h\n'}
+[3.653233] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__type_support.h\n'}
+[3.659171] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__functions.h\n'}
+[3.659563] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.h\n'}
+[3.660065] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__type_support.h\n'}
+[3.660465] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.h\n'}
+[3.660766] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.h\n'}
+[3.661250] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.h\n'}
+[3.661734] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__functions.h\n'}
+[3.662111] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.h\n'}
+[3.667010] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__type_support.h\n'}
+[3.667425] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__functions.h\n'}
+[3.667744] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.h\n'}
+[3.668257] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__type_support.h\n'}
+[3.668628] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.h\n'}
+[3.669006] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.h\n'}
+[3.669364] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.669788] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.sh\n'}
+[3.670165] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.dsv\n'}
+[3.673535] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[3.674927] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_c.h\n'}
+[3.676383] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_c.h\n'}
+[3.677767] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[3.679182] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[3.680492] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_c.h\n'}
+[3.681796] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.687601] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.hpp\n'}
+[3.689022] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__builder.hpp\n'}
+[3.690753] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.hpp\n'}
+[3.692088] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__traits.hpp\n'}
+[3.693335] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__builder.hpp\n'}
+[3.694687] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.hpp\n'}
+[3.696034] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__traits.hpp\n'}
+[3.697146] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__builder.hpp\n'}
+[3.698248] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.hpp\n'}
+[3.699592] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__traits.hpp\n'}
+[3.701007] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__builder.hpp\n'}
+[3.702345] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.hpp\n'}
+[3.704114] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__traits.hpp\n'}
+[3.705398] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.hpp\n'}
+[3.706725] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.hpp\n'}
+[3.708033] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.hpp\n'}
+[3.709332] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__builder.hpp\n'}
+[3.710727] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.hpp\n'}
+[3.711860] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__traits.hpp\n'}
+[3.712951] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__builder.hpp\n'}
+[3.714307] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.hpp\n'}
+[3.715771] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__traits.hpp\n'}
+[3.717056] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.hpp\n'}
+[3.718191] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.hpp\n'}
+[3.724497] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.725788] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.727378] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.728928] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.730422] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.731830] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.733034] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.737057] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_c.h\n'}
+[3.738649] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_c.h\n'}
+[3.739205] (-) TimerEvent: {}
+[3.740155] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_c.h\n'}
+[3.741538] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[3.743003] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_c.h\n'}
+[3.744591] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_c.h\n'}
+[3.745974] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.750202] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.751634] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.753422] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.755165] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.756632] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.757944] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.759706] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.sh\n'}
+[3.761224] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.dsv\n'}
+[3.763593] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.764979] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.766368] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.767806] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.775450] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py\n'}
+[3.776643] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_c.c\n'}
+[3.777824] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.779159] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.780464] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py\n'}
+[3.781800] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py\n'}
+[3.783012] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera_s.c\n'}
+[3.784104] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py\n'}
+[3.785471] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu_s.c\n'}
+[3.786898] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py\n'}
+[3.788266] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to_s.c\n'}
+[3.789537] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py\n'}
+[3.790916] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates_s.c\n'}
+[3.792245] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/libprototype__rosidl_generator_py.so\n'}
+[3.793617] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py\n'}
+[3.794923] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py\n'}
+[3.796028] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle_s.c\n'}
+[3.797094] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py\n'}
+[3.798295] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food_s.c\n'}
+[3.799806] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.801127] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.802444] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.805017] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.807176] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.809340] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.810980] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.idl\n'}
+[3.812416] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.idl\n'}
+[3.813732] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.idl\n'}
+[3.815174] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.idl\n'}
+[3.816677] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.idl\n'}
+[3.818102] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.idl\n'}
+[3.819340] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.action\n'}
+[3.820468] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.action\n'}
+[3.821778] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.action\n'}
+[3.823290] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.action\n'}
+[3.824559] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.msg\n'}
+[3.825797] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.msg\n'}
+[3.827489] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/package_run_dependencies/prototype\n'}
+[3.829183] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/parent_prefix_path/prototype\n'}
+[3.830438] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.sh\n'}
+[3.831700] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.dsv\n'}
+[3.833022] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.sh\n'}
+[3.834349] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.dsv\n'}
+[3.835741] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.bash\n'}
+[3.837013] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.sh\n'}
+[3.838305] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.zsh\n'}
+[3.839385] (-) TimerEvent: {}
+[3.840135] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.dsv\n'}
+[3.842835] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.dsv\n'}
+[3.880949] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/packages/prototype\n'}
+[3.883096] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake-extras.cmake\n'}
+[3.884394] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.885550] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.886661] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.887672] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.888869] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.890120] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.891551] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig.cmake\n'}
+[3.892354] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig-version.cmake\n'}
+[3.893268] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.xml\n'}
+[3.894856] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_c.so\n'}
+[3.897437] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so\n'}
+[3.899594] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.901936] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so\n'}
+[3.904360] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so\n'}
+[3.906571] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so\n'}
+[3.908906] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so\n'}
+[3.939602] (-) TimerEvent: {}
+[4.040327] (-) TimerEvent: {}
+[4.079765] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype'...\n"}
+[4.081625] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action'...\n"}
+[4.082837] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg'...\n"}
+[4.109525] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_py.so\n'}
+[4.111273] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport.cmake\n'}
+[4.112097] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.113044] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.113957] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.114925] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cppExport.cmake\n'}
+[4.116178] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.116678] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.117367] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.117694] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.118235] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport.cmake\n'}
+[4.118931] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.121544] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.122607] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.123348] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport.cmake\n'}
+[4.123720] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.124109] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport.cmake\n'}
+[4.124506] (prototype) StdoutLine: {'line': b'-- Up-to-date: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.138646] (prototype) CommandEnded: {'returncode': 0}
+[4.142154] (-) TimerEvent: {}
+[4.242922] (-) TimerEvent: {}
+[4.345661] (-) TimerEvent: {}
+[4.447001] (-) TimerEvent: {}
+[4.547769] (-) TimerEvent: {}
+[4.649312] (-) TimerEvent: {}
+[4.751318] (-) TimerEvent: {}
+[4.852573] (-) TimerEvent: {}
+[4.953915] (-) TimerEvent: {}
+[5.055194] (-) TimerEvent: {}
+[5.155930] (-) TimerEvent: {}
+[5.256726] (-) TimerEvent: {}
+[5.290741] (prototype) JobEnded: {'identifier': 'prototype', 'rc': 0}
+[5.295798] (-) EventReactorShutdown: {}

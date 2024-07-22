@@ -1,0 +1,3 @@
+source;share/ai_client/environment/ament_prefix_path.sh
+source;share/ai_client/environment/path.sh
+source;share/ai_client/environment/pythonpath.sh

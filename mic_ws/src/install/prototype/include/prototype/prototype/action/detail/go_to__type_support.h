@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_generator_c/prototype/action/detail/go_to__type_support.h

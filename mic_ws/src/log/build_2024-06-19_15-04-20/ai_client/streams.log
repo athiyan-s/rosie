@@ -1,0 +1,119 @@
+[0.059s] Invoking command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosievoice/main_ws/mic_ws/src/ai_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosievoice/main_ws/mic_ws/src/install/ai_client
+[0.724s] -- The C compiler identification is GNU 11.4.0
+[1.304s] -- The CXX compiler identification is GNU 11.4.0
+[1.349s] -- Detecting C compiler ABI info
+[1.737s] -- Detecting C compiler ABI info - done
+[1.764s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.768s] -- Detecting C compile features
+[1.770s] -- Detecting C compile features - done
+[1.788s] -- Detecting CXX compiler ABI info
+[2.204s] -- Detecting CXX compiler ABI info - done
+[2.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.232s] -- Detecting CXX compile features
+[2.234s] -- Detecting CXX compile features - done
+[2.263s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.089s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.790s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.164s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.210s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.278s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.950s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.979s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.196s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.282s] -- Looking for pthread.h
+[5.640s] -- Looking for pthread.h - found
+[5.641s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.034s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.044s] -- Found Threads: TRUE  
+[6.856s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[7.327s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.895s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.896s] -- Configured cppcheck include dirs: 
+[7.896s] -- Configured cppcheck exclude dirs and/or files: 
+[7.909s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.930s] -- Added test 'lint_cmake' to check CMake code style
+[7.943s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.020s] -- Added test 'uncrustify' to check C / C++ code style
+[8.021s] -- Configured uncrustify additional arguments: 
+[8.034s] -- Added test 'xmllint' to check XML markup files
+[8.050s] -- Configuring done
+[8.096s] -- Generating done
+[8.104s] -- Build files have been written to: /home/rosievoice/main_ws/mic_ws/src/build/ai_client
+[8.145s] Invoked command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosievoice/main_ws/mic_ws/src/ai_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosievoice/main_ws/mic_ws/src/install/ai_client
+[8.147s] Invoking command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/src/build/ai_client -- -j4 -l4
+[8.393s] Built target ament_cmake_python_symlink_ai_client
+[9.545s] running egg_info
+[9.548s] creating ai_client.egg-info
+[9.549s] writing ai_client.egg-info/PKG-INFO
+[9.550s] writing dependency_links to ai_client.egg-info/dependency_links.txt
+[9.551s] writing top-level names to ai_client.egg-info/top_level.txt
+[9.552s] writing manifest file 'ai_client.egg-info/SOURCES.txt'
+[9.562s] reading manifest file 'ai_client.egg-info/SOURCES.txt'
+[9.570s] writing manifest file 'ai_client.egg-info/SOURCES.txt'
+[9.720s] Built target ament_cmake_python_build_ai_client_egg
+[9.763s] Invoked command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/src/build/ai_client -- -j4 -l4
+[9.929s] Invoking command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/src/build/ai_client
+[9.954s] -- Install configuration: ""
+[9.957s] -- Execute custom install script
+[9.959s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/launch/ai_client.launch.py
+[9.993s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/launch/navigation.launch.py
+[10.027s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/battery.xml
+[10.060s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/follow_point.xml
+[10.092s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/nav2_params.yaml
+[10.125s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/navigate_to_pose_w_replanning_and_recovery.xml
+[10.160s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/navigate_w_battery.xml
+[10.215s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/config/output.json
+[10.252s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/action_client_ai.py
+[10.289s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/action_server_ai.py
+[10.337s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/final_test.py
+[10.372s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/kal_.py
+[10.406s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/README
+[10.442s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/am/final.mdl
+[10.477s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/conf/mfcc.conf
+[10.512s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/conf/model.conf
+[10.548s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/graph/Gr.fst
+[10.600s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/graph/HCLr.fst
+[10.634s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/graph/disambig_tid.int
+[10.668s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/graph/phones/word_boundary.int
+[10.699s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/final.dubm
+[10.735s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/final.ie
+[10.772s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/final.mat
+[10.807s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/global_cmvn.stats
+[10.846s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/online_cmvn.conf
+[10.888s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/model_in/ivector/splice.conf
+[10.926s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/table_navigation.py
+[10.967s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/test_.py
+[11.005s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/scripts/vosk-model-small-en-in-0.4.zip
+[11.038s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/ai_client/__init__.py
+[11.071s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/ai_client/robot_navigator.py
+[11.109s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/pythonpath.sh
+[11.142s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/pythonpath.dsv
+[11.177s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/PKG-INFO
+[11.211s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.247s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.280s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/top_level.txt
+[11.318s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client/__init__.py
+[11.352s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client/robot_navigator.py
+[11.399s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/lib/ai_client/action_client_ai.py
+[11.433s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ament_index/resource_index/package_run_dependencies/ai_client
+[11.469s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ament_index/resource_index/parent_prefix_path/ai_client
+[11.505s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/ament_prefix_path.sh
+[11.536s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/ament_prefix_path.dsv
+[11.568s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/path.sh
+[11.605s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/environment/path.dsv
+[11.639s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/local_setup.bash
+[11.673s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/local_setup.sh
+[11.708s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/local_setup.zsh
+[11.748s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/local_setup.dsv
+[11.783s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/package.dsv
+[11.820s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ament_index/resource_index/packages/ai_client
+[11.858s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/cmake/ai_clientConfig.cmake
+[11.890s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/cmake/ai_clientConfig-version.cmake
+[11.923s] -- Symlinking: /home/rosievoice/main_ws/mic_ws/src/install/ai_client/share/ai_client/package.xml
+[12.148s] Listing '/home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client'...
+[12.150s] Compiling '/home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client/__init__.py'...
+[12.152s] Compiling '/home/rosievoice/main_ws/mic_ws/src/install/ai_client/local/lib/python3.10/dist-packages/ai_client/robot_navigator.py'...
+[12.182s] Invoked command in '/home/rosievoice/main_ws/mic_ws/src/build/ai_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/src/build/ai_client

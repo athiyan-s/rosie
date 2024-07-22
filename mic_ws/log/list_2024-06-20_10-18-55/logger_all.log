@@ -1,0 +1,159 @@
+[0.675s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/rosievoice/main_ws/mic_ws']
+[0.676s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/rosievoice/main_ws/mic_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff95b8d180>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff95b57c10>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff95b57c10>>, mixin_verb=('list',))
+[2.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.678s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosievoice/main_ws/mic_ws'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'ignore'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'ignore_ament_install'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['colcon_pkg']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'colcon_pkg'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['colcon_meta']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'colcon_meta'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['ros']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'ros'
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['cmake', 'python']
+[2.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'cmake'
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'python'
+[2.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extensions ['python_setup_py']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws) by extension 'python_setup_py'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/build) by extension 'ignore'
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/build) ignored
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/install) by extension 'ignore'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/install) ignored
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/log) by extension 'ignore'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/log) ignored
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'ignore'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'ignore_ament_install'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['colcon_pkg']
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'colcon_pkg'
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['colcon_meta']
+[2.779s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'colcon_meta'
+[2.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['ros']
+[2.780s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'ros'
+[2.782s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['cmake', 'python']
+[2.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'cmake'
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'python'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extensions ['python_setup_py']
+[2.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src) by extension 'python_setup_py'
+[2.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extensions ['ignore', 'ignore_ament_install']
+[2.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extension 'ignore'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extension 'ignore_ament_install'
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extensions ['colcon_pkg']
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extension 'colcon_pkg'
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extensions ['colcon_meta']
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extension 'colcon_meta'
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extensions ['ros']
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/ai_client) by extension 'ros'
+[2.810s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosievoice/main_ws/mic_ws/src/ai_client' with type 'ros.ament_cmake' and name 'ai_client'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/build) by extension 'ignore'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/build) ignored
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/install) by extension 'ignore'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/install) ignored
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/log) by extension 'ignore'
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/log) ignored
+[2.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extensions ['ignore', 'ignore_ament_install']
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extension 'ignore'
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extension 'ignore_ament_install'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extensions ['colcon_pkg']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extension 'colcon_pkg'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extensions ['colcon_meta']
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extension 'colcon_meta'
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extensions ['ros']
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/prototype) by extension 'ros'
+[2.830s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rosievoice/main_ws/mic_ws/src/prototype' with type 'ros.ament_cmake' and name 'prototype'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['ignore', 'ignore_ament_install']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'ignore'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'ignore_ament_install'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['colcon_pkg']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'colcon_pkg'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['colcon_meta']
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'colcon_meta'
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['ros']
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'ros'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['cmake', 'python']
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'cmake'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'python'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extensions ['python_setup_py']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15) by extension 'python_setup_py'
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['ignore', 'ignore_ament_install']
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'ignore'
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'ignore_ament_install'
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['colcon_pkg']
+[2.841s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'colcon_pkg'
+[2.841s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['colcon_meta']
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'colcon_meta'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['ros']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'ros'
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['cmake', 'python']
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'cmake'
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'python'
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extensions ['python_setup_py']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/am) by extension 'python_setup_py'
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['ignore', 'ignore_ament_install']
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'ignore'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'ignore_ament_install'
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['colcon_pkg']
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'colcon_pkg'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['colcon_meta']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'colcon_meta'
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['ros']
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'ros'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['cmake', 'python']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'cmake'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'python'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extensions ['python_setup_py']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/conf) by extension 'python_setup_py'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['ignore', 'ignore_ament_install']
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'ignore'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'ignore_ament_install'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['colcon_pkg']
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'colcon_pkg'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['colcon_meta']
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'colcon_meta'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['ros']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'ros'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['cmake', 'python']
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'cmake'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'python'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extensions ['python_setup_py']
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph) by extension 'python_setup_py'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['ignore', 'ignore_ament_install']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ignore'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ignore_ament_install'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['colcon_pkg']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'colcon_pkg'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['colcon_meta']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'colcon_meta'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['ros']
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ros'
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['cmake', 'python']
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'cmake'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'python'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['python_setup_py']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/graph/phones) by extension 'python_setup_py'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['ignore', 'ignore_ament_install']
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'ignore'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'ignore_ament_install'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['colcon_pkg']
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'colcon_pkg'
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['colcon_meta']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'colcon_meta'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['ros']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'ros'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['cmake', 'python']
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'cmake'
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'python'
+[2.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extensions ['python_setup_py']
+[2.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rosievoice/main_ws/mic_ws/src/vosk-model-small-en-us-0.15/ivector) by extension 'python_setup_py'
+[2.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

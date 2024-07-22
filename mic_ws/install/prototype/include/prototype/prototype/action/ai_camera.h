@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_generator_c/prototype/action/ai_camera.h

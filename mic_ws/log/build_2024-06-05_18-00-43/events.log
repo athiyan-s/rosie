@@ -1,0 +1,1470 @@
+[0.000000] (-) TimerEvent: {}
+[0.001740] (ai_client) JobQueued: {'identifier': 'ai_client', 'dependencies': OrderedDict()}
+[0.002322] (prototype) JobQueued: {'identifier': 'prototype', 'dependencies': OrderedDict()}
+[0.002417] (ai_client) JobStarted: {'identifier': 'ai_client'}
+[0.039210] (prototype) JobStarted: {'identifier': 'prototype'}
+[0.062604] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'cmake'}
+[0.064067] (ai_client) Command: {'cmd': ['/usr/bin/cmake', '/home/rosievoice/main_ws/mic_ws/src/ai_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rosievoice/main_ws/mic_ws/install/ai_client'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/ai_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087003] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'cmake'}
+[0.091382] (prototype) Command: {'cmd': ['/usr/bin/cmake', '/home/rosievoice/main_ws/mic_ws/src/prototype', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rosievoice/main_ws/mic_ws/install/prototype'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101646] (-) TimerEvent: {}
+[0.202441] (-) TimerEvent: {}
+[0.303564] (-) TimerEvent: {}
+[0.404588] (-) TimerEvent: {}
+[0.505696] (-) TimerEvent: {}
+[0.606667] (-) TimerEvent: {}
+[0.707642] (-) TimerEvent: {}
+[0.808971] (-) TimerEvent: {}
+[0.910526] (-) TimerEvent: {}
+[0.920679] (ai_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.925294] (prototype) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.010789] (-) TimerEvent: {}
+[1.113449] (-) TimerEvent: {}
+[1.214636] (-) TimerEvent: {}
+[1.315671] (-) TimerEvent: {}
+[1.416913] (-) TimerEvent: {}
+[1.503640] (prototype) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.504689] (ai_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.517235] (-) TimerEvent: {}
+[1.554626] (ai_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.555777] (prototype) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.617436] (-) TimerEvent: {}
+[1.719114] (-) TimerEvent: {}
+[1.821850] (-) TimerEvent: {}
+[1.924227] (-) TimerEvent: {}
+[1.979069] (prototype) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.998185] (ai_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.015486] (prototype) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.022057] (prototype) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.024495] (-) TimerEvent: {}
+[2.027607] (prototype) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.033841] (ai_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.035781] (ai_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.038658] (ai_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.050436] (prototype) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.055317] (ai_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.128967] (-) TimerEvent: {}
+[2.232255] (-) TimerEvent: {}
+[2.333714] (-) TimerEvent: {}
+[2.434805] (-) TimerEvent: {}
+[2.512438] (ai_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.530700] (prototype) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.534990] (-) TimerEvent: {}
+[2.552212] (ai_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.553412] (ai_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.555084] (ai_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.562255] (prototype) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.563581] (prototype) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.565969] (prototype) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.585427] (ai_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.586096] (prototype) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.635214] (-) TimerEvent: {}
+[2.736263] (-) TimerEvent: {}
+[2.837351] (-) TimerEvent: {}
+[2.938694] (-) TimerEvent: {}
+[3.041595] (-) TimerEvent: {}
+[3.142562] (-) TimerEvent: {}
+[3.243625] (-) TimerEvent: {}
+[3.346078] (-) TimerEvent: {}
+[3.412034] (prototype) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.415963] (ai_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.446406] (-) TimerEvent: {}
+[3.547428] (-) TimerEvent: {}
+[3.649094] (-) TimerEvent: {}
+[3.752174] (-) TimerEvent: {}
+[3.817840] (prototype) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.818629] (ai_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.852323] (-) TimerEvent: {}
+[3.953113] (-) TimerEvent: {}
+[4.053935] (-) TimerEvent: {}
+[4.102588] (prototype) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[4.103444] (ai_client) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.120316] (prototype) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[4.154116] (-) TimerEvent: {}
+[4.254911] (-) TimerEvent: {}
+[4.355847] (-) TimerEvent: {}
+[4.453921] (ai_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.456017] (-) TimerEvent: {}
+[4.494850] (ai_client) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.556071] (prototype) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.556686] (-) TimerEvent: {}
+[4.558425] (ai_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.656921] (-) TimerEvent: {}
+[4.663741] (ai_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.723142] (prototype) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.754877] (prototype) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.757117] (-) TimerEvent: {}
+[4.781148] (ai_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.802145] (prototype) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.857324] (-) TimerEvent: {}
+[4.871485] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.952314] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.957484] (-) TimerEvent: {}
+[5.058780] (-) TimerEvent: {}
+[5.159577] (-) TimerEvent: {}
+[5.202926] (ai_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.226923] (ai_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.259770] (-) TimerEvent: {}
+[5.360567] (-) TimerEvent: {}
+[5.461564] (-) TimerEvent: {}
+[5.562410] (-) TimerEvent: {}
+[5.585095] (prototype) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.662588] (-) TimerEvent: {}
+[5.685038] (prototype) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.762786] (-) TimerEvent: {}
+[5.863587] (-) TimerEvent: {}
+[5.940461] (ai_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.963827] (-) TimerEvent: {}
+[6.064863] (-) TimerEvent: {}
+[6.113258] (ai_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.165050] (-) TimerEvent: {}
+[6.266511] (-) TimerEvent: {}
+[6.281750] (prototype) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.297684] (prototype) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.366685] (-) TimerEvent: {}
+[6.408368] (ai_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.466876] (-) TimerEvent: {}
+[6.477346] (prototype) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.490775] (ai_client) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.567130] (-) TimerEvent: {}
+[6.668836] (-) TimerEvent: {}
+[6.721114] (prototype) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.729364] (prototype) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.769040] (-) TimerEvent: {}
+[6.792777] (prototype) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.837455] (prototype) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.869290] (-) TimerEvent: {}
+[6.877491] (prototype) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[6.891185] (ai_client) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.892552] (ai_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.916093] (prototype) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.972914] (-) TimerEvent: {}
+[6.981769] (prototype) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.079193] (-) TimerEvent: {}
+[7.180358] (-) TimerEvent: {}
+[7.282512] (-) TimerEvent: {}
+[7.312017] (ai_client) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.326651] (ai_client) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.382827] (-) TimerEvent: {}
+[7.393331] (prototype) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.394846] (prototype) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.483011] (-) TimerEvent: {}
+[7.584383] (-) TimerEvent: {}
+[7.685559] (-) TimerEvent: {}
+[7.752496] (prototype) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.758840] (prototype) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.785679] (-) TimerEvent: {}
+[7.886575] (-) TimerEvent: {}
+[7.990804] (-) TimerEvent: {}
+[8.091612] (-) TimerEvent: {}
+[8.125431] (ai_client) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[8.191779] (-) TimerEvent: {}
+[8.302706] (-) TimerEvent: {}
+[8.403535] (-) TimerEvent: {}
+[8.505062] (-) TimerEvent: {}
+[8.562147] (ai_client) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.605223] (-) TimerEvent: {}
+[8.706446] (-) TimerEvent: {}
+[8.807473] (-) TimerEvent: {}
+[8.908374] (-) TimerEvent: {}
+[9.009249] (-) TimerEvent: {}
+[9.096055] (ai_client) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.096906] (ai_client) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[9.097374] (ai_client) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.109423] (-) TimerEvent: {}
+[9.112026] (ai_client) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.132672] (ai_client) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.150133] (ai_client) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[9.209663] (-) TimerEvent: {}
+[9.230138] (ai_client) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.231067] (ai_client) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.243854] (ai_client) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.256385] (ai_client) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.302632] (ai_client) StdoutLine: {'line': b'-- Generating done\n'}
+[9.309863] (-) TimerEvent: {}
+[9.311691] (ai_client) StdoutLine: {'line': b'-- Build files have been written to: /home/rosievoice/main_ws/mic_ws/build/ai_client\n'}
+[9.351945] (ai_client) CommandEnded: {'returncode': 0}
+[9.354175] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'build'}
+[9.356933] (ai_client) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosievoice/main_ws/mic_ws/build/ai_client', '--', '-j4', '-l4'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/ai_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.410085] (-) TimerEvent: {}
+[9.512343] (-) TimerEvent: {}
+[9.613516] (-) TimerEvent: {}
+[9.632973] (ai_client) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_ai_client\n'}
+[9.690360] (prototype) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.713862] (-) TimerEvent: {}
+[9.821844] (-) TimerEvent: {}
+[9.851026] (prototype) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.861791] (prototype) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.863515] (prototype) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.922046] (-) TimerEvent: {}
+[9.922969] (prototype) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[10.022268] (-) TimerEvent: {}
+[10.123691] (-) TimerEvent: {}
+[10.224475] (-) TimerEvent: {}
+[10.325295] (-) TimerEvent: {}
+[10.426076] (-) TimerEvent: {}
+[10.526882] (-) TimerEvent: {}
+[10.627667] (-) TimerEvent: {}
+[10.728478] (-) TimerEvent: {}
+[10.829878] (-) TimerEvent: {}
+[10.888416] (ai_client) StdoutLine: {'line': b'running egg_info\n'}
+[10.892419] (ai_client) StdoutLine: {'line': b'creating ai_client.egg-info\n'}
+[10.893418] (ai_client) StdoutLine: {'line': b'writing ai_client.egg-info/PKG-INFO\n'}
+[10.894461] (ai_client) StdoutLine: {'line': b'writing dependency_links to ai_client.egg-info/dependency_links.txt\n'}
+[10.895676] (ai_client) StdoutLine: {'line': b'writing top-level names to ai_client.egg-info/top_level.txt\n'}
+[10.897181] (ai_client) StdoutLine: {'line': b"writing manifest file 'ai_client.egg-info/SOURCES.txt'\n"}
+[10.910967] (ai_client) StdoutLine: {'line': b"reading manifest file 'ai_client.egg-info/SOURCES.txt'\n"}
+[10.913450] (ai_client) StdoutLine: {'line': b"writing manifest file 'ai_client.egg-info/SOURCES.txt'\n"}
+[10.930145] (-) TimerEvent: {}
+[11.031331] (-) TimerEvent: {}
+[11.067145] (ai_client) StdoutLine: {'line': b'Built target ament_cmake_python_build_ai_client_egg\n'}
+[11.110057] (ai_client) CommandEnded: {'returncode': 0}
+[11.131548] (-) TimerEvent: {}
+[11.232438] (-) TimerEvent: {}
+[11.240227] (ai_client) JobProgress: {'identifier': 'ai_client', 'progress': 'install'}
+[11.277183] (ai_client) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosievoice/main_ws/mic_ws/build/ai_client'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/ai_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.303303] (ai_client) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.305036] (ai_client) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.308235] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/launch/ai_client.launch.py\n'}
+[11.332672] (-) TimerEvent: {}
+[11.340449] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/launch/navigation.launch.py\n'}
+[11.376922] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/battery.xml\n'}
+[11.413726] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/follow_point.xml\n'}
+[11.432933] (-) TimerEvent: {}
+[11.448680] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/nav2_params.yaml\n'}
+[11.482284] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/navigate_to_pose_w_replanning_and_recovery.xml\n'}
+[11.522846] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/navigate_w_battery.xml\n'}
+[11.533108] (-) TimerEvent: {}
+[11.556424] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/config/output.json\n'}
+[11.597307] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/action_client_ai.py\n'}
+[11.630966] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/action_server_ai.py\n'}
+[11.633293] (-) TimerEvent: {}
+[11.642489] (prototype) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.663866] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/final_test.py\n'}
+[11.695351] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/kal_.py\n'}
+[11.728417] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/README\n'}
+[11.733474] (-) TimerEvent: {}
+[11.761185] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/am/final.mdl\n'}
+[11.794180] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/conf/mfcc.conf\n'}
+[11.827272] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/conf/model.conf\n'}
+[11.833698] (-) TimerEvent: {}
+[11.861660] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/Gr.fst\n'}
+[11.895320] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/HCLr.fst\n'}
+[11.933992] (-) TimerEvent: {}
+[11.936914] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/disambig_tid.int\n'}
+[11.978380] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/graph/phones/word_boundary.int\n'}
+[12.017000] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.dubm\n'}
+[12.034174] (-) TimerEvent: {}
+[12.051456] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.ie\n'}
+[12.093531] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/final.mat\n'}
+[12.128091] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/global_cmvn.stats\n'}
+[12.134411] (-) TimerEvent: {}
+[12.163431] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/online_cmvn.conf\n'}
+[12.214370] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/model_in/ivector/splice.conf\n'}
+[12.234618] (-) TimerEvent: {}
+[12.250582] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/table_navigation.py\n'}
+[12.284317] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/test_.py\n'}
+[12.319040] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/scripts/vosk-model-small-en-in-0.4.zip\n'}
+[12.334835] (-) TimerEvent: {}
+[12.363331] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/ai_client/__init__.py\n'}
+[12.402199] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/ai_client/robot_navigator.py\n'}
+[12.435098] (-) TimerEvent: {}
+[12.440288] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/pythonpath.sh\n'}
+[12.477733] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/pythonpath.dsv\n'}
+[12.511653] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.535308] (-) TimerEvent: {}
+[12.543999] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.575295] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.609325] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.635550] (-) TimerEvent: {}
+[12.646802] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/__init__.py\n'}
+[12.686032] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/robot_navigator.py\n'}
+[12.718060] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/lib/ai_client/action_client_ai.py\n'}
+[12.735919] (-) TimerEvent: {}
+[12.758552] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/package_run_dependencies/ai_client\n'}
+[12.793312] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/parent_prefix_path/ai_client\n'}
+[12.826393] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/ament_prefix_path.sh\n'}
+[12.836283] (-) TimerEvent: {}
+[12.865696] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/ament_prefix_path.dsv\n'}
+[12.897513] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/path.sh\n'}
+[12.930872] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/environment/path.dsv\n'}
+[12.936413] (-) TimerEvent: {}
+[12.963427] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.bash\n'}
+[12.997320] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.sh\n'}
+[13.030691] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.zsh\n'}
+[13.043152] (-) TimerEvent: {}
+[13.069347] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/local_setup.dsv\n'}
+[13.105328] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.dsv\n'}
+[13.142462] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ament_index/resource_index/packages/ai_client\n'}
+[13.143243] (-) TimerEvent: {}
+[13.182469] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/cmake/ai_clientConfig.cmake\n'}
+[13.243554] (-) TimerEvent: {}
+[13.245210] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/cmake/ai_clientConfig-version.cmake\n'}
+[13.284977] (ai_client) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.xml\n'}
+[13.343728] (-) TimerEvent: {}
+[13.444615] (-) TimerEvent: {}
+[13.495868] (ai_client) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client'...\n"}
+[13.498368] (ai_client) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/__init__.py'...\n"}
+[13.501163] (ai_client) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/ai_client/local/lib/python3.10/dist-packages/ai_client/robot_navigator.py'...\n"}
+[13.544898] (-) TimerEvent: {}
+[13.548958] (ai_client) CommandEnded: {'returncode': 0}
+[13.612611] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.645181] (-) TimerEvent: {}
+[13.746581] (-) TimerEvent: {}
+[13.847699] (-) TimerEvent: {}
+[13.948776] (-) TimerEvent: {}
+[14.049639] (-) TimerEvent: {}
+[14.150840] (-) TimerEvent: {}
+[14.252303] (-) TimerEvent: {}
+[14.353615] (-) TimerEvent: {}
+[14.454819] (-) TimerEvent: {}
+[14.555973] (-) TimerEvent: {}
+[14.656918] (-) TimerEvent: {}
+[14.757975] (-) TimerEvent: {}
+[14.858767] (-) TimerEvent: {}
+[14.959883] (-) TimerEvent: {}
+[15.004484] (ai_client) JobEnded: {'identifier': 'ai_client', 'rc': 0}
+[15.060039] (-) TimerEvent: {}
+[15.160791] (-) TimerEvent: {}
+[15.261473] (-) TimerEvent: {}
+[15.362300] (-) TimerEvent: {}
+[15.401244] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.462489] (-) TimerEvent: {}
+[15.489809] (prototype) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[15.508186] (prototype) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[15.562925] (-) TimerEvent: {}
+[15.614000] (prototype) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[15.614872] (prototype) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.615545] (prototype) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[15.615998] (prototype) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[15.662920] (-) TimerEvent: {}
+[15.694131] (prototype) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[15.763124] (-) TimerEvent: {}
+[15.863827] (-) TimerEvent: {}
+[15.939904] (prototype) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.963992] (-) TimerEvent: {}
+[16.064685] (-) TimerEvent: {}
+[16.128022] (prototype) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.164875] (-) TimerEvent: {}
+[16.265568] (-) TimerEvent: {}
+[16.274732] (prototype) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.292630] (prototype) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.302795] (prototype) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.365737] (-) TimerEvent: {}
+[16.380089] (prototype) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.403696] (prototype) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.465944] (-) TimerEvent: {}
+[16.566734] (-) TimerEvent: {}
+[16.660761] (prototype) StdoutLine: {'line': b'-- Generating done\n'}
+[16.666916] (-) TimerEvent: {}
+[16.677929] (prototype) StdoutLine: {'line': b'-- Build files have been written to: /home/rosievoice/main_ws/mic_ws/build/prototype\n'}
+[16.737258] (prototype) CommandEnded: {'returncode': 0}
+[16.739262] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'build'}
+[16.740418] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosievoice/main_ws/mic_ws/build/prototype', '--', '-j4', '-l4'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.767130] (-) TimerEvent: {}
+[16.868162] (-) TimerEvent: {}
+[16.969129] (-) TimerEvent: {}
+[16.979571] (prototype) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.015656] (prototype) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.069392] (-) TimerEvent: {}
+[17.171803] (-) TimerEvent: {}
+[17.197820] (prototype) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_prototype\n'}
+[17.272173] (-) TimerEvent: {}
+[17.377570] (-) TimerEvent: {}
+[17.480793] (-) TimerEvent: {}
+[17.583180] (-) TimerEvent: {}
+[17.684466] (-) TimerEvent: {}
+[17.785462] (-) TimerEvent: {}
+[17.887581] (-) TimerEvent: {}
+[17.989889] (-) TimerEvent: {}
+[18.090856] (-) TimerEvent: {}
+[18.191685] (-) TimerEvent: {}
+[18.292437] (-) TimerEvent: {}
+[18.393274] (-) TimerEvent: {}
+[18.493978] (-) TimerEvent: {}
+[18.596674] (-) TimerEvent: {}
+[18.662968] (prototype) StdoutLine: {'line': b'running egg_info\n'}
+[18.666837] (prototype) StdoutLine: {'line': b'creating prototype.egg-info\n'}
+[18.667590] (prototype) StdoutLine: {'line': b'writing prototype.egg-info/PKG-INFO\n'}
+[18.668866] (prototype) StdoutLine: {'line': b'writing dependency_links to prototype.egg-info/dependency_links.txt\n'}
+[18.670184] (prototype) StdoutLine: {'line': b'writing top-level names to prototype.egg-info/top_level.txt\n'}
+[18.671723] (prototype) StdoutLine: {'line': b"writing manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[18.680394] (prototype) StdoutLine: {'line': b"reading manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[18.683148] (prototype) StdoutLine: {'line': b"writing manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[18.697039] (-) TimerEvent: {}
+[18.806999] (-) TimerEvent: {}
+[18.834564] (prototype) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_prototype_egg\n'}
+[18.907187] (-) TimerEvent: {}
+[19.007848] (-) TimerEvent: {}
+[19.108599] (-) TimerEvent: {}
+[19.209382] (-) TimerEvent: {}
+[19.310322] (-) TimerEvent: {}
+[19.411052] (-) TimerEvent: {}
+[19.511809] (-) TimerEvent: {}
+[19.612647] (-) TimerEvent: {}
+[19.713418] (-) TimerEvent: {}
+[19.814131] (-) TimerEvent: {}
+[19.914811] (-) TimerEvent: {}
+[20.015472] (-) TimerEvent: {}
+[20.116173] (-) TimerEvent: {}
+[20.216892] (-) TimerEvent: {}
+[20.317609] (-) TimerEvent: {}
+[20.418300] (-) TimerEvent: {}
+[20.519052] (-) TimerEvent: {}
+[20.619781] (-) TimerEvent: {}
+[20.720572] (-) TimerEvent: {}
+[20.829078] (-) TimerEvent: {}
+[20.929807] (-) TimerEvent: {}
+[21.030533] (-) TimerEvent: {}
+[21.131366] (-) TimerEvent: {}
+[21.232068] (-) TimerEvent: {}
+[21.333012] (-) TimerEvent: {}
+[21.433765] (-) TimerEvent: {}
+[21.534445] (-) TimerEvent: {}
+[21.635111] (-) TimerEvent: {}
+[21.735798] (-) TimerEvent: {}
+[21.836483] (-) TimerEvent: {}
+[21.937224] (-) TimerEvent: {}
+[22.037939] (-) TimerEvent: {}
+[22.138647] (-) TimerEvent: {}
+[22.239345] (-) TimerEvent: {}
+[22.340127] (-) TimerEvent: {}
+[22.440899] (-) TimerEvent: {}
+[22.541612] (-) TimerEvent: {}
+[22.642347] (-) TimerEvent: {}
+[22.743041] (-) TimerEvent: {}
+[22.843875] (-) TimerEvent: {}
+[22.945529] (-) TimerEvent: {}
+[23.049260] (-) TimerEvent: {}
+[23.154215] (-) TimerEvent: {}
+[23.256986] (-) TimerEvent: {}
+[23.360339] (-) TimerEvent: {}
+[23.465268] (-) TimerEvent: {}
+[23.509779] (prototype) StdoutLine: {'line': b'[  2%] Built target prototype__cpp\n'}
+[23.559437] (prototype) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.563401] (prototype) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.565344] (prototype) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[23.566105] (-) TimerEvent: {}
+[23.576907] (prototype) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/send_coordinates__functions.c.o\x1b[0m\n'}
+[23.666346] (-) TimerEvent: {}
+[23.776941] (-) TimerEvent: {}
+[23.878716] (-) TimerEvent: {}
+[23.981665] (-) TimerEvent: {}
+[24.083886] (-) TimerEvent: {}
+[24.186044] (-) TimerEvent: {}
+[24.289840] (-) TimerEvent: {}
+[24.391913] (-) TimerEvent: {}
+[24.493972] (-) TimerEvent: {}
+[24.576713] (prototype) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/go_to__functions.c.o\x1b[0m\n'}
+[24.594246] (-) TimerEvent: {}
+[24.695181] (-) TimerEvent: {}
+[24.796193] (-) TimerEvent: {}
+[24.897163] (-) TimerEvent: {}
+[24.998116] (-) TimerEvent: {}
+[25.099046] (-) TimerEvent: {}
+[25.200137] (-) TimerEvent: {}
+[25.296887] (prototype) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/food_menu__functions.c.o\x1b[0m\n'}
+[25.300335] (-) TimerEvent: {}
+[25.404934] (-) TimerEvent: {}
+[25.505785] (-) TimerEvent: {}
+[25.606775] (-) TimerEvent: {}
+[25.707747] (-) TimerEvent: {}
+[25.808874] (-) TimerEvent: {}
+[25.909951] (-) TimerEvent: {}
+[26.011056] (-) TimerEvent: {}
+[26.112310] (-) TimerEvent: {}
+[26.213236] (-) TimerEvent: {}
+[26.314194] (-) TimerEvent: {}
+[26.415235] (-) TimerEvent: {}
+[26.516264] (-) TimerEvent: {}
+[26.594216] (prototype) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/ai_camera__functions.c.o\x1b[0m\n'}
+[26.616506] (-) TimerEvent: {}
+[26.718663] (-) TimerEvent: {}
+[26.822620] (-) TimerEvent: {}
+[26.924780] (-) TimerEvent: {}
+[27.026793] (-) TimerEvent: {}
+[27.127742] (-) TimerEvent: {}
+[27.228778] (-) TimerEvent: {}
+[27.331608] (-) TimerEvent: {}
+[27.447156] (-) TimerEvent: {}
+[27.549807] (-) TimerEvent: {}
+[27.650798] (-) TimerEvent: {}
+[27.751673] (-) TimerEvent: {}
+[27.855703] (-) TimerEvent: {}
+[27.886989] (prototype) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/food__functions.c.o\x1b[0m\n'}
+[27.955948] (-) TimerEvent: {}
+[28.062895] (-) TimerEvent: {}
+[28.164008] (-) TimerEvent: {}
+[28.255616] (prototype) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[28.264328] (-) TimerEvent: {}
+[28.295395] (prototype) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/distance_angle__functions.c.o\x1b[0m\n'}
+[28.368970] (-) TimerEvent: {}
+[28.476913] (-) TimerEvent: {}
+[28.578213] (-) TimerEvent: {}
+[28.680920] (-) TimerEvent: {}
+[28.788930] (-) TimerEvent: {}
+[28.819063] (prototype) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libprototype__rosidl_generator_c.so\x1b[0m\n'}
+[28.889535] (-) TimerEvent: {}
+[28.990906] (-) TimerEvent: {}
+[29.092220] (-) TimerEvent: {}
+[29.138546] (prototype) StdoutLine: {'line': b'[ 18%] Built target prototype__rosidl_generator_c\n'}
+[29.192471] (-) TimerEvent: {}
+[29.212906] (prototype) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.293069] (-) TimerEvent: {}
+[29.394160] (-) TimerEvent: {}
+[29.497391] (-) TimerEvent: {}
+[29.600962] (-) TimerEvent: {}
+[29.702832] (-) TimerEvent: {}
+[29.804950] (-) TimerEvent: {}
+[29.907318] (-) TimerEvent: {}
+[30.010608] (-) TimerEvent: {}
+[30.112960] (-) TimerEvent: {}
+[30.215627] (-) TimerEvent: {}
+[30.328935] (-) TimerEvent: {}
+[30.429994] (-) TimerEvent: {}
+[30.440661] (prototype) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[30.530232] (-) TimerEvent: {}
+[30.632609] (-) TimerEvent: {}
+[30.734640] (-) TimerEvent: {}
+[30.836928] (-) TimerEvent: {}
+[30.938877] (-) TimerEvent: {}
+[31.040887] (-) TimerEvent: {}
+[31.143197] (-) TimerEvent: {}
+[31.245464] (-) TimerEvent: {}
+[31.347919] (-) TimerEvent: {}
+[31.450262] (-) TimerEvent: {}
+[31.553075] (-) TimerEvent: {}
+[31.655865] (-) TimerEvent: {}
+[31.758099] (-) TimerEvent: {}
+[31.860437] (-) TimerEvent: {}
+[31.962674] (-) TimerEvent: {}
+[32.064865] (-) TimerEvent: {}
+[32.166793] (-) TimerEvent: {}
+[32.269223] (-) TimerEvent: {}
+[32.363253] (prototype) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[32.369440] (-) TimerEvent: {}
+[32.471818] (-) TimerEvent: {}
+[32.574224] (-) TimerEvent: {}
+[32.680981] (-) TimerEvent: {}
+[32.785492] (-) TimerEvent: {}
+[32.888945] (-) TimerEvent: {}
+[32.992957] (-) TimerEvent: {}
+[33.096960] (-) TimerEvent: {}
+[33.200973] (-) TimerEvent: {}
+[33.304948] (-) TimerEvent: {}
+[33.408997] (-) TimerEvent: {}
+[33.510234] (-) TimerEvent: {}
+[33.612993] (-) TimerEvent: {}
+[33.716974] (-) TimerEvent: {}
+[33.736948] (prototype) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/go_to__type_support.cpp.o\x1b[0m\n'}
+[33.820987] (-) TimerEvent: {}
+[33.924964] (-) TimerEvent: {}
+[34.026037] (-) TimerEvent: {}
+[34.140945] (-) TimerEvent: {}
+[34.244922] (-) TimerEvent: {}
+[34.348949] (-) TimerEvent: {}
+[34.452067] (-) TimerEvent: {}
+[34.556940] (-) TimerEvent: {}
+[34.660974] (-) TimerEvent: {}
+[34.762357] (-) TimerEvent: {}
+[34.864641] (-) TimerEvent: {}
+[34.966848] (-) TimerEvent: {}
+[35.068909] (-) TimerEvent: {}
+[35.171052] (-) TimerEvent: {}
+[35.273331] (-) TimerEvent: {}
+[35.384972] (-) TimerEvent: {}
+[35.486008] (-) TimerEvent: {}
+[35.588358] (-) TimerEvent: {}
+[35.691826] (-) TimerEvent: {}
+[35.805700] (-) TimerEvent: {}
+[35.907839] (-) TimerEvent: {}
+[36.009738] (-) TimerEvent: {}
+[36.111903] (-) TimerEvent: {}
+[36.214022] (-) TimerEvent: {}
+[36.316413] (-) TimerEvent: {}
+[36.418392] (-) TimerEvent: {}
+[36.520600] (-) TimerEvent: {}
+[36.622939] (-) TimerEvent: {}
+[36.725207] (-) TimerEvent: {}
+[36.749784] (prototype) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/go_to__type_support.cpp.o\x1b[0m\n'}
+[36.825501] (-) TimerEvent: {}
+[36.928313] (-) TimerEvent: {}
+[37.032402] (-) TimerEvent: {}
+[37.133592] (-) TimerEvent: {}
+[37.236975] (-) TimerEvent: {}
+[37.343165] (-) TimerEvent: {}
+[37.445377] (-) TimerEvent: {}
+[37.547728] (-) TimerEvent: {}
+[37.650618] (-) TimerEvent: {}
+[37.751125] (prototype) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/send_coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[37.752070] (-) TimerEvent: {}
+[37.854621] (-) TimerEvent: {}
+[37.957457] (-) TimerEvent: {}
+[38.059567] (-) TimerEvent: {}
+[38.161614] (-) TimerEvent: {}
+[38.264538] (-) TimerEvent: {}
+[38.308532] (prototype) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/food_menu__type_support.cpp.o\x1b[0m\n'}
+[38.364848] (-) TimerEvent: {}
+[38.409879] (prototype) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/go_to__type_support.cpp.o\x1b[0m\n'}
+[38.465082] (-) TimerEvent: {}
+[38.566137] (-) TimerEvent: {}
+[38.667273] (-) TimerEvent: {}
+[38.769333] (-) TimerEvent: {}
+[38.871197] (-) TimerEvent: {}
+[38.973472] (-) TimerEvent: {}
+[39.075681] (-) TimerEvent: {}
+[39.178140] (-) TimerEvent: {}
+[39.280829] (-) TimerEvent: {}
+[39.383675] (-) TimerEvent: {}
+[39.486422] (-) TimerEvent: {}
+[39.589389] (-) TimerEvent: {}
+[39.692599] (-) TimerEvent: {}
+[39.795526] (-) TimerEvent: {}
+[39.898047] (-) TimerEvent: {}
+[40.000660] (-) TimerEvent: {}
+[40.103010] (-) TimerEvent: {}
+[40.205763] (-) TimerEvent: {}
+[40.308482] (-) TimerEvent: {}
+[40.411532] (-) TimerEvent: {}
+[40.514094] (-) TimerEvent: {}
+[40.616958] (-) TimerEvent: {}
+[40.667955] (prototype) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/go_to__type_support_c.cpp.o\x1b[0m\n'}
+[40.717221] (-) TimerEvent: {}
+[40.818568] (-) TimerEvent: {}
+[40.919814] (-) TimerEvent: {}
+[41.022902] (-) TimerEvent: {}
+[41.125325] (-) TimerEvent: {}
+[41.227733] (-) TimerEvent: {}
+[41.329862] (-) TimerEvent: {}
+[41.432192] (-) TimerEvent: {}
+[41.534673] (-) TimerEvent: {}
+[41.636968] (-) TimerEvent: {}
+[41.649105] (prototype) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/food_menu__type_support.cpp.o\x1b[0m\n'}
+[41.737252] (-) TimerEvent: {}
+[41.839748] (-) TimerEvent: {}
+[41.914378] (prototype) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[41.940033] (-) TimerEvent: {}
+[42.042495] (-) TimerEvent: {}
+[42.145194] (-) TimerEvent: {}
+[42.247419] (-) TimerEvent: {}
+[42.357834] (-) TimerEvent: {}
+[42.458880] (-) TimerEvent: {}
+[42.560163] (-) TimerEvent: {}
+[42.630574] (prototype) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/food_menu__type_support.cpp.o\x1b[0m\n'}
+[42.660472] (-) TimerEvent: {}
+[42.761743] (-) TimerEvent: {}
+[42.862963] (-) TimerEvent: {}
+[42.964057] (-) TimerEvent: {}
+[43.065184] (-) TimerEvent: {}
+[43.166247] (-) TimerEvent: {}
+[43.267283] (-) TimerEvent: {}
+[43.369924] (-) TimerEvent: {}
+[43.472991] (-) TimerEvent: {}
+[43.575936] (-) TimerEvent: {}
+[43.677265] (-) TimerEvent: {}
+[43.709081] (prototype) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/food_menu__type_support_c.cpp.o\x1b[0m\n'}
+[43.777576] (-) TimerEvent: {}
+[43.880503] (-) TimerEvent: {}
+[43.983258] (-) TimerEvent: {}
+[44.086524] (-) TimerEvent: {}
+[44.188947] (-) TimerEvent: {}
+[44.291994] (-) TimerEvent: {}
+[44.393308] (-) TimerEvent: {}
+[44.494430] (-) TimerEvent: {}
+[44.595780] (-) TimerEvent: {}
+[44.697035] (-) TimerEvent: {}
+[44.798234] (-) TimerEvent: {}
+[44.899582] (-) TimerEvent: {}
+[45.001013] (-) TimerEvent: {}
+[45.102743] (-) TimerEvent: {}
+[45.204166] (-) TimerEvent: {}
+[45.305280] (-) TimerEvent: {}
+[45.407811] (-) TimerEvent: {}
+[45.509380] (-) TimerEvent: {}
+[45.610658] (-) TimerEvent: {}
+[45.664177] (prototype) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/food__type_support.cpp.o\x1b[0m\n'}
+[45.711041] (-) TimerEvent: {}
+[45.815621] (-) TimerEvent: {}
+[45.918008] (-) TimerEvent: {}
+[46.020355] (-) TimerEvent: {}
+[46.122607] (-) TimerEvent: {}
+[46.225227] (-) TimerEvent: {}
+[46.301940] (prototype) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[46.325656] (-) TimerEvent: {}
+[46.428293] (-) TimerEvent: {}
+[46.530939] (-) TimerEvent: {}
+[46.633011] (-) TimerEvent: {}
+[46.734788] (-) TimerEvent: {}
+[46.750437] (prototype) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[46.834995] (-) TimerEvent: {}
+[46.865493] (prototype) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/ai_camera__type_support_c.cpp.o\x1b[0m\n'}
+[46.935295] (-) TimerEvent: {}
+[47.037246] (-) TimerEvent: {}
+[47.139329] (-) TimerEvent: {}
+[47.246749] (-) TimerEvent: {}
+[47.347797] (-) TimerEvent: {}
+[47.450554] (-) TimerEvent: {}
+[47.553023] (-) TimerEvent: {}
+[47.655627] (-) TimerEvent: {}
+[47.702525] (prototype) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[47.759811] (-) TimerEvent: {}
+[47.863251] (-) TimerEvent: {}
+[47.970742] (-) TimerEvent: {}
+[48.071818] (-) TimerEvent: {}
+[48.176995] (-) TimerEvent: {}
+[48.279130] (-) TimerEvent: {}
+[48.380285] (-) TimerEvent: {}
+[48.488944] (-) TimerEvent: {}
+[48.595929] (-) TimerEvent: {}
+[48.704989] (-) TimerEvent: {}
+[48.806453] (-) TimerEvent: {}
+[48.907885] (-) TimerEvent: {}
+[49.009394] (-) TimerEvent: {}
+[49.110903] (-) TimerEvent: {}
+[49.212282] (-) TimerEvent: {}
+[49.313453] (-) TimerEvent: {}
+[49.414882] (-) TimerEvent: {}
+[49.516215] (-) TimerEvent: {}
+[49.617620] (-) TimerEvent: {}
+[49.718739] (-) TimerEvent: {}
+[49.819884] (-) TimerEvent: {}
+[49.841115] (prototype) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[49.920248] (-) TimerEvent: {}
+[50.022904] (-) TimerEvent: {}
+[50.125786] (-) TimerEvent: {}
+[50.145694] (prototype) StdoutLine: {'line': b'[ 45%] Built target prototype__rosidl_typesupport_cpp\n'}
+[50.158786] (prototype) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/food__type_support_c.cpp.o\x1b[0m\n'}
+[50.200347] (prototype) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[50.228164] (-) TimerEvent: {}
+[50.329130] (-) TimerEvent: {}
+[50.437003] (-) TimerEvent: {}
+[50.537901] (-) TimerEvent: {}
+[50.640885] (-) TimerEvent: {}
+[50.741761] (-) TimerEvent: {}
+[50.798033] (prototype) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/food__type_support.cpp.o\x1b[0m\n'}
+[50.842180] (-) TimerEvent: {}
+[50.945346] (-) TimerEvent: {}
+[51.047073] (prototype) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/food__type_support.cpp.o\x1b[0m\n'}
+[51.048225] (-) TimerEvent: {}
+[51.150558] (-) TimerEvent: {}
+[51.252378] (-) TimerEvent: {}
+[51.353228] (-) TimerEvent: {}
+[51.454354] (-) TimerEvent: {}
+[51.555475] (-) TimerEvent: {}
+[51.656495] (-) TimerEvent: {}
+[51.757701] (-) TimerEvent: {}
+[51.858752] (-) TimerEvent: {}
+[51.959605] (-) TimerEvent: {}
+[52.060557] (-) TimerEvent: {}
+[52.161598] (-) TimerEvent: {}
+[52.262453] (-) TimerEvent: {}
+[52.363644] (-) TimerEvent: {}
+[52.465921] (-) TimerEvent: {}
+[52.514423] (prototype) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/distance_angle__type_support_c.cpp.o\x1b[0m\n'}
+[52.566151] (-) TimerEvent: {}
+[52.668477] (-) TimerEvent: {}
+[52.770671] (-) TimerEvent: {}
+[52.872500] (-) TimerEvent: {}
+[52.974613] (-) TimerEvent: {}
+[53.076690] (-) TimerEvent: {}
+[53.179760] (-) TimerEvent: {}
+[53.281998] (-) TimerEvent: {}
+[53.384348] (-) TimerEvent: {}
+[53.486761] (-) TimerEvent: {}
+[53.589149] (-) TimerEvent: {}
+[53.693194] (-) TimerEvent: {}
+[53.740343] (prototype) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[53.761814] (prototype) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[53.793484] (-) TimerEvent: {}
+[53.895785] (-) TimerEvent: {}
+[53.997794] (-) TimerEvent: {}
+[54.099685] (-) TimerEvent: {}
+[54.201971] (-) TimerEvent: {}
+[54.304101] (-) TimerEvent: {}
+[54.408459] (-) TimerEvent: {}
+[54.509584] (-) TimerEvent: {}
+[54.611745] (-) TimerEvent: {}
+[54.713774] (-) TimerEvent: {}
+[54.815921] (-) TimerEvent: {}
+[54.918093] (-) TimerEvent: {}
+[55.020270] (-) TimerEvent: {}
+[55.119455] (prototype) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[55.120498] (-) TimerEvent: {}
+[55.221980] (-) TimerEvent: {}
+[55.324613] (-) TimerEvent: {}
+[55.426515] (-) TimerEvent: {}
+[55.527876] (-) TimerEvent: {}
+[55.630937] (-) TimerEvent: {}
+[55.675746] (prototype) StdoutLine: {'line': b'[ 56%] Built target prototype__rosidl_typesupport_fastrtps_c\n'}
+[55.731866] (-) TimerEvent: {}
+[55.752214] (prototype) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[55.832087] (-) TimerEvent: {}
+[55.934275] (-) TimerEvent: {}
+[56.036835] (-) TimerEvent: {}
+[56.139798] (-) TimerEvent: {}
+[56.242459] (-) TimerEvent: {}
+[56.344877] (-) TimerEvent: {}
+[56.447520] (-) TimerEvent: {}
+[56.549685] (-) TimerEvent: {}
+[56.651920] (-) TimerEvent: {}
+[56.672768] (prototype) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[56.736242] (prototype) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/send_coordinates__type_support.c.o\x1b[0m\n'}
+[56.752172] (-) TimerEvent: {}
+[56.837580] (prototype) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[56.852400] (-) TimerEvent: {}
+[56.954348] (-) TimerEvent: {}
+[57.056495] (-) TimerEvent: {}
+[57.158713] (-) TimerEvent: {}
+[57.188128] (prototype) StdoutLine: {'line': b'[ 61%] Built target prototype__rosidl_typesupport_fastrtps_cpp\n'}
+[57.197836] (prototype) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/go_to__type_support.c.o\x1b[0m\n'}
+[57.259002] (-) TimerEvent: {}
+[57.263633] (prototype) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/food_menu__type_support.c.o\x1b[0m\n'}
+[57.339164] (prototype) StdoutLine: {'line': b'[ 64%] Built target prototype__rosidl_typesupport_introspection_cpp\n'}
+[57.359248] (-) TimerEvent: {}
+[57.376512] (prototype) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/ai_camera__type_support.c.o\x1b[0m\n'}
+[57.459544] (-) TimerEvent: {}
+[57.562012] (-) TimerEvent: {}
+[57.573503] (prototype) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/food__type_support.c.o\x1b[0m\n'}
+[57.617276] (prototype) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/distance_angle__type_support.c.o\x1b[0m\n'}
+[57.662150] (-) TimerEvent: {}
+[57.763868] (-) TimerEvent: {}
+[57.816337] (prototype) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libprototype__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[57.864150] (-) TimerEvent: {}
+[57.964925] (-) TimerEvent: {}
+[58.003254] (prototype) StdoutLine: {'line': b'[ 70%] Built target prototype__rosidl_typesupport_introspection_c\n'}
+[58.065137] (-) TimerEvent: {}
+[58.165910] (-) TimerEvent: {}
+[58.266677] (-) TimerEvent: {}
+[58.367505] (-) TimerEvent: {}
+[58.468270] (-) TimerEvent: {}
+[58.569259] (-) TimerEvent: {}
+[58.670096] (-) TimerEvent: {}
+[58.770899] (-) TimerEvent: {}
+[58.871661] (-) TimerEvent: {}
+[58.972687] (-) TimerEvent: {}
+[59.073703] (-) TimerEvent: {}
+[59.174501] (-) TimerEvent: {}
+[59.275564] (-) TimerEvent: {}
+[59.376878] (-) TimerEvent: {}
+[59.480950] (-) TimerEvent: {}
+[59.503938] (prototype) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/go_to__type_support.cpp.o\x1b[0m\n'}
+[59.509830] (prototype) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[59.516800] (prototype) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[59.532540] (prototype) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/food_menu__type_support.cpp.o\x1b[0m\n'}
+[59.581207] (-) TimerEvent: {}
+[59.683430] (-) TimerEvent: {}
+[59.786019] (-) TimerEvent: {}
+[59.888034] (-) TimerEvent: {}
+[59.938391] (prototype) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/food__type_support.cpp.o\x1b[0m\n'}
+[59.943277] (prototype) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[59.988644] (-) TimerEvent: {}
+[60.091156] (-) TimerEvent: {}
+[60.118902] (prototype) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_c.so\x1b[0m\n'}
+[60.191396] (-) TimerEvent: {}
+[60.292923] (-) TimerEvent: {}
+[60.316431] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype__rosidl_typesupport_c\n'}
+[60.393117] (-) TimerEvent: {}
+[60.405373] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype\n'}
+[60.493333] (-) TimerEvent: {}
+[60.497625] (prototype) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[60.593512] (-) TimerEvent: {}
+[60.694207] (-) TimerEvent: {}
+[60.794964] (-) TimerEvent: {}
+[60.895958] (-) TimerEvent: {}
+[60.996830] (-) TimerEvent: {}
+[61.097603] (-) TimerEvent: {}
+[61.198329] (-) TimerEvent: {}
+[61.299019] (-) TimerEvent: {}
+[61.399736] (-) TimerEvent: {}
+[61.500449] (-) TimerEvent: {}
+[61.601151] (-) TimerEvent: {}
+[61.701786] (-) TimerEvent: {}
+[61.802430] (-) TimerEvent: {}
+[61.903076] (-) TimerEvent: {}
+[62.003737] (-) TimerEvent: {}
+[62.104440] (-) TimerEvent: {}
+[62.205397] (-) TimerEvent: {}
+[62.306124] (-) TimerEvent: {}
+[62.406805] (-) TimerEvent: {}
+[62.507558] (-) TimerEvent: {}
+[62.608262] (-) TimerEvent: {}
+[62.708959] (-) TimerEvent: {}
+[62.809630] (-) TimerEvent: {}
+[62.910274] (-) TimerEvent: {}
+[63.010930] (-) TimerEvent: {}
+[63.111622] (-) TimerEvent: {}
+[63.212267] (-) TimerEvent: {}
+[63.312994] (-) TimerEvent: {}
+[63.413657] (-) TimerEvent: {}
+[63.514294] (-) TimerEvent: {}
+[63.614942] (-) TimerEvent: {}
+[63.715598] (-) TimerEvent: {}
+[63.816268] (-) TimerEvent: {}
+[63.916957] (-) TimerEvent: {}
+[64.017607] (-) TimerEvent: {}
+[64.118247] (-) TimerEvent: {}
+[64.218880] (-) TimerEvent: {}
+[64.319547] (-) TimerEvent: {}
+[64.420221] (-) TimerEvent: {}
+[64.520941] (-) TimerEvent: {}
+[64.621681] (-) TimerEvent: {}
+[64.722464] (-) TimerEvent: {}
+[64.823133] (-) TimerEvent: {}
+[64.923791] (-) TimerEvent: {}
+[65.024464] (-) TimerEvent: {}
+[65.125245] (-) TimerEvent: {}
+[65.225998] (-) TimerEvent: {}
+[65.326695] (-) TimerEvent: {}
+[65.427320] (-) TimerEvent: {}
+[65.527969] (-) TimerEvent: {}
+[65.628649] (-) TimerEvent: {}
+[65.729348] (-) TimerEvent: {}
+[65.830001] (-) TimerEvent: {}
+[65.930655] (-) TimerEvent: {}
+[66.031614] (-) TimerEvent: {}
+[66.132397] (-) TimerEvent: {}
+[66.233328] (-) TimerEvent: {}
+[66.333979] (-) TimerEvent: {}
+[66.434609] (-) TimerEvent: {}
+[66.535314] (-) TimerEvent: {}
+[66.635975] (-) TimerEvent: {}
+[66.736628] (-) TimerEvent: {}
+[66.837318] (-) TimerEvent: {}
+[66.938108] (-) TimerEvent: {}
+[67.038763] (-) TimerEvent: {}
+[67.139497] (-) TimerEvent: {}
+[67.240199] (-) TimerEvent: {}
+[67.340886] (-) TimerEvent: {}
+[67.441549] (-) TimerEvent: {}
+[67.542212] (-) TimerEvent: {}
+[67.642865] (-) TimerEvent: {}
+[67.743568] (-) TimerEvent: {}
+[67.844277] (-) TimerEvent: {}
+[67.945103] (-) TimerEvent: {}
+[68.045767] (-) TimerEvent: {}
+[68.146492] (-) TimerEvent: {}
+[68.247240] (-) TimerEvent: {}
+[68.348078] (-) TimerEvent: {}
+[68.448945] (-) TimerEvent: {}
+[68.549610] (-) TimerEvent: {}
+[68.650306] (-) TimerEvent: {}
+[68.751005] (-) TimerEvent: {}
+[68.851672] (-) TimerEvent: {}
+[68.952425] (-) TimerEvent: {}
+[69.053135] (-) TimerEvent: {}
+[69.153772] (-) TimerEvent: {}
+[69.254406] (-) TimerEvent: {}
+[69.355059] (-) TimerEvent: {}
+[69.455729] (-) TimerEvent: {}
+[69.556510] (-) TimerEvent: {}
+[69.657250] (-) TimerEvent: {}
+[69.757932] (-) TimerEvent: {}
+[69.858588] (-) TimerEvent: {}
+[69.959229] (-) TimerEvent: {}
+[70.059869] (-) TimerEvent: {}
+[70.160508] (-) TimerEvent: {}
+[70.261239] (-) TimerEvent: {}
+[70.361901] (-) TimerEvent: {}
+[70.462582] (-) TimerEvent: {}
+[70.563262] (-) TimerEvent: {}
+[70.663953] (-) TimerEvent: {}
+[70.764588] (-) TimerEvent: {}
+[70.865292] (-) TimerEvent: {}
+[70.966060] (-) TimerEvent: {}
+[71.067353] (-) TimerEvent: {}
+[71.160020] (prototype) StdoutLine: {'line': b'[ 81%] Built target prototype__py\n'}
+[71.167524] (-) TimerEvent: {}
+[71.252911] (prototype) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_go_to_s.c.o\x1b[0m\n'}
+[71.256972] (prototype) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_food_menu_s.c.o\x1b[0m\n'}
+[71.261270] (prototype) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_send_coordinates_s.c.o\x1b[0m\n'}
+[71.263382] (prototype) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_ai_camera_s.c.o\x1b[0m\n'}
+[71.267739] (-) TimerEvent: {}
+[71.368651] (-) TimerEvent: {}
+[71.471058] (-) TimerEvent: {}
+[71.571965] (-) TimerEvent: {}
+[71.672882] (-) TimerEvent: {}
+[71.773789] (-) TimerEvent: {}
+[71.874691] (-) TimerEvent: {}
+[71.976429] (-) TimerEvent: {}
+[72.077838] (-) TimerEvent: {}
+[72.179120] (-) TimerEvent: {}
+[72.271668] (prototype) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_food_s.c.o\x1b[0m\n'}
+[72.279494] (-) TimerEvent: {}
+[72.288611] (prototype) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_distance_angle_s.c.o\x1b[0m\n'}
+[72.379737] (-) TimerEvent: {}
+[72.480593] (-) TimerEvent: {}
+[72.581595] (-) TimerEvent: {}
+[72.682488] (-) TimerEvent: {}
+[72.783369] (-) TimerEvent: {}
+[72.797407] (prototype) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/libprototype__rosidl_generator_py.so\x1b[0m\n'}
+[72.883708] (-) TimerEvent: {}
+[72.986586] (-) TimerEvent: {}
+[73.025342] (prototype) StdoutLine: {'line': b'[ 91%] Built target prototype__rosidl_generator_py\n'}
+[73.086795] (-) TimerEvent: {}
+[73.118698] (prototype) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[73.122146] (prototype) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[73.124350] (prototype) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[73.187004] (-) TimerEvent: {}
+[73.287902] (-) TimerEvent: {}
+[73.389926] (-) TimerEvent: {}
+[73.491034] (-) TimerEvent: {}
+[73.592392] (-) TimerEvent: {}
+[73.693369] (-) TimerEvent: {}
+[73.794447] (-) TimerEvent: {}
+[73.895753] (-) TimerEvent: {}
+[73.997009] (-) TimerEvent: {}
+[74.098045] (-) TimerEvent: {}
+[74.199171] (-) TimerEvent: {}
+[74.243023] (prototype) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[74.247899] (prototype) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[74.292802] (prototype) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[74.299365] (-) TimerEvent: {}
+[74.401384] (-) TimerEvent: {}
+[74.504666] (-) TimerEvent: {}
+[74.607882] (-) TimerEvent: {}
+[74.620403] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_c__pyext\n'}
+[74.641229] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_introspection_c__pyext\n'}
+[74.665674] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_fastrtps_c__pyext\n'}
+[74.708256] (-) TimerEvent: {}
+[74.713929] (prototype) CommandEnded: {'returncode': 0}
+[74.808396] (-) TimerEvent: {}
+[74.909193] (-) TimerEvent: {}
+[75.010028] (-) TimerEvent: {}
+[75.110784] (-) TimerEvent: {}
+[75.211471] (-) TimerEvent: {}
+[75.312695] (-) TimerEvent: {}
+[75.414094] (-) TimerEvent: {}
+[75.515015] (-) TimerEvent: {}
+[75.616172] (-) TimerEvent: {}
+[75.717308] (-) TimerEvent: {}
+[75.722590] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'install'}
+[75.723876] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosievoice/main_ws/mic_ws/build/prototype'], 'cwd': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosievoice'), ('SSH_CLIENT', '192.168.1.137 47330 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosievoice'), ('OLDPWD', '/home/rosievoice/main_ws/mic_ws/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-48a51b05-00fe-472f-aa21-a6aca0c28420.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosievoice'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosievoice/.cache/cloud-code/m2c/bin:/home/rosievoice/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/rosievoice/.local/bin:/opt/ros/humble/bin:/home/rosievoice/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4ca28936ee.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosievoice/main_ws/mic_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.137 47330 192.168.1.79 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[75.759259] (prototype) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[75.761442] (prototype) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[75.764331] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/camera.yaml\n'}
+[75.796393] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf.yaml\n'}
+[75.817488] (-) TimerEvent: {}
+[75.828408] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf_map.yaml\n'}
+[75.860243] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/joystick.yaml\n'}
+[75.891095] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/motor_control.yaml\n'}
+[75.917666] (-) TimerEvent: {}
+[75.924164] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/mobilenet.json\n'}
+[75.958165] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/segmentation.json\n'}
+[75.991663] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/yolo.json\n'}
+[76.017850] (-) TimerEvent: {}
+[76.058426] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/rgbd.yaml\n'}
+[76.091863] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/spatial_bb.yaml\n'}
+[76.118077] (-) TimerEvent: {}
+[76.133611] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/twist_mux.yaml\n'}
+[76.177333] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/battery_state.launch.py\n'}
+[76.216481] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera.launch.py\n'}
+[76.218312] (-) TimerEvent: {}
+[76.266933] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_local.launch.py\n'}
+[76.310824] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_uncompressed_launch.py\n'}
+[76.318649] (-) TimerEvent: {}
+[76.357894] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/gui.launch.py\n'}
+[76.413404] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/hand_gesture.launch.py\n'}
+[76.418855] (-) TimerEvent: {}
+[76.448887] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/image_pro.py\n'}
+[76.480245] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/imu_launch.py\n'}
+[76.513298] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/joystick.launch.py\n'}
+[76.519026] (-) TimerEvent: {}
+[76.545937] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/laser_launch.py\n'}
+[76.579428] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/localization_launch.py\n'}
+[76.611280] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/main_launch.py\n'}
+[76.619223] (-) TimerEvent: {}
+[76.643906] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/motor_launch.py\n'}
+[76.674960] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/navigation.launch.py\n'}
+[76.707151] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/no_com_camera.launch.py\n'}
+[76.719418] (-) TimerEvent: {}
+[76.741527] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rgbd_pcl.launch.py\n'}
+[76.774760] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robot_localization_launch.py\n'}
+[76.806643] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robotmodel.launch.py\n'}
+[76.819643] (-) TimerEvent: {}
+[76.838314] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtab_odom.launch.py\n'}
+[76.871722] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtabmap.launch.py\n'}
+[76.904273] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rviz2_launch.py\n'}
+[76.919864] (-) TimerEvent: {}
+[76.938082] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/sensors_launch.py\n'}
+[76.970138] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spatial_bb.launch.py\n'}
+[77.003302] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn.launch.xml\n'}
+[77.020079] (-) TimerEvent: {}
+[77.039793] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn_pos.launch.py\n'}
+[77.080786] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/stereo.launch.py\n'}
+[77.120400] (-) TimerEvent: {}
+[77.131398] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/AiCamera.action\n'}
+[77.175644] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/FoodMenu.action\n'}
+[77.219098] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/GoTo.action\n'}
+[77.220541] (-) TimerEvent: {}
+[77.263778] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/SendCoordinates.action\n'}
+[77.299199] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//worlds/empty_world.world\n'}
+[77.320828] (-) TimerEvent: {}
+[77.334624] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/box_room.dae\n'}
+[77.366412] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/chambre.png\n'}
+[77.397228] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.config\n'}
+[77.420952] (-) TimerEvent: {}
+[77.430298] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.sdf\n'}
+[77.464084] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/camera.xacro\n'}
+[77.497111] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/hardware_interface.xacro\n'}
+[77.521125] (-) TimerEvent: {}
+[77.529768] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/joint_macros.xacro\n'}
+[77.562510] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/lidar.xacro\n'}
+[77.594248] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/link_macros.xacro\n'}
+[77.621332] (-) TimerEvent: {}
+[77.627450] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/prototype.xacro\n'}
+[77.659590] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/wheel.xacro\n'}
+[77.691585] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/camera.xacro\n'}
+[77.721539] (-) TimerEvent: {}
+[77.723066] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/hardware_interface.xacro\n'}
+[77.757091] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/joint_macros.xacro\n'}
+[77.788395] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/lidar.xacro\n'}
+[77.819705] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/link_macros.xacro\n'}
+[77.821663] (-) TimerEvent: {}
+[77.852316] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/prototype.xacro\n'}
+[77.883258] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/wheel.xacro\n'}
+[77.917571] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dazzling.stl\n'}
+[77.921853] (-) TimerEvent: {}
+[77.951118] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dbrakes2K.png\n'}
+[77.982489] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dreaotherothertex2K.png\n'}
+[78.013306] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dtire_rim_detail2Ktex.png\n'}
+[78.022034] (-) TimerEvent: {}
+[78.046330] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material Base Color.png\n'}
+[78.078225] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material.005 Base Color.png\n'}
+[78.110267] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(1).stl\n'}
+[78.122315] (-) TimerEvent: {}
+[78.142572] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(3).stl\n'}
+[78.174171] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh.stl\n'}
+[78.206474] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Wheels.dae\n'}
+[78.222649] (-) TimerEvent: {}
+[78.239110] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/blender_mesh.stl\n'}
+[78.273245] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane base.png\n'}
+[78.304666] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane stand.001.png\n'}
+[78.322861] (-) TimerEvent: {}
+[78.337009] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend\n'}
+[78.367972] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend1\n'}
+[78.398831] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.dae\n'}
+[78.423100] (-) TimerEvent: {}
+[78.430400] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_base.png\n'}
+[78.462510] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_stand.png\n'}
+[78.495338] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.blend\n'}
+[78.523313] (-) TimerEvent: {}
+[78.527393] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.dae\n'}
+[78.559889] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/first wheel.blend\n'}
+[78.592777] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/gear color.png\n'}
+[78.623506] (-) TimerEvent: {}
+[78.624284] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/lambert3_baseColor.png\n'}
+[78.656396] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/motor .png\n'}
+[78.690494] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.blend\n'}
+[78.721614] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.dae\n'}
+[78.723691] (-) TimerEvent: {}
+[78.754044] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/realsense.dae\n'}
+[78.785869] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidar.dae\n'}
+[78.817477] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidartexture.png\n'}
+[78.823888] (-) TimerEvent: {}
+[78.849205] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/textures/lambert3_baseColor.png\n'}
+[78.880815] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tinker.stl\n'}
+[78.912945] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tire_rubber_2K_NRM.png\n'}
+[78.924160] (-) TimerEvent: {}
+[78.945895] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/obj.mtl\n'}
+[78.977437] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/tinker.obj\n'}
+[79.011502] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__init__.py\n'}
+[79.024378] (-) TimerEvent: {}
+[79.046673] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/gesture_recognition.cpython-310.pyc\n'}
+[79.078500] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/robot_navigator.cpython-310.pyc\n'}
+[79.110191] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_client.py\n'}
+[79.124664] (-) TimerEvent: {}
+[79.142540] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_server.py\n'}
+[79.173139] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery.py\n'}
+[79.204703] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_boot.py\n'}
+[79.224941] (-) TimerEvent: {}
+[79.236147] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_test.py\n'}
+[79.268170] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/behaviours.py\n'}
+[79.301230] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/cvfpscalc.py\n'}
+[79.325121] (-) TimerEvent: {}
+[79.333359] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/data_gathering.py\n'}
+[79.363861] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/face.py\n'}
+[79.396876] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/gesture_recognition.py\n'}
+[79.425342] (-) TimerEvent: {}
+[79.429541] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/goal.py\n'}
+[79.461331] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand.py\n'}
+[79.493733] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand_sign_recognition.py\n'}
+[79.525456] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map.py\n'}
+[79.526035] (-) TimerEvent: {}
+[79.557868] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map_object.py\n'}
+[79.589835] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_laser.py\n'}
+[79.622137] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_shaft.py\n'}
+[79.626229] (-) TimerEvent: {}
+[79.654773] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/object_broadcast.py\n'}
+[79.686077] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/odom_base.py\n'}
+[79.719623] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/py_tree_server.py\n'}
+[79.726442] (-) TimerEvent: {}
+[79.753342] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robot_navigator.py\n'}
+[79.785919] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robotmodel.py\n'}
+[79.818641] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/service_velocity.py\n'}
+[79.826614] (-) TimerEvent: {}
+[79.850556] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/spatial.py\n'}
+[79.882509] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/string_sub.py\n'}
+[79.913544] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/test.py\n'}
+[79.926849] (-) TimerEvent: {}
+[79.946139] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/tf.py\n'}
+[79.977260] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.dot\n'}
+[80.008565] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.png\n'}
+[80.027203] (-) TimerEvent: {}
+[80.040223] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.svg\n'}
+[80.072771] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//rviz/localizer_rviz_config.rviz\n'}
+[80.105908] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/DistanceAngle.msg\n'}
+[80.127536] (-) TimerEvent: {}
+[80.139615] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/Food.msg\n'}
+[80.171577] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_laser.py\n'}
+[80.205079] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_shaft.py\n'}
+[80.227820] (-) TimerEvent: {}
+[80.236048] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/action_client.py\n'}
+[80.268528] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/rosidl_interfaces/prototype\n'}
+[80.305405] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.h\n'}
+[80.328010] (-) TimerEvent: {}
+[80.340097] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__functions.h\n'}
+[80.373865] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.h\n'}
+[80.405528] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__type_support.h\n'}
+[80.428239] (-) TimerEvent: {}
+[80.437695] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__functions.h\n'}
+[80.471270] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.h\n'}
+[80.503042] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__type_support.h\n'}
+[80.528440] (-) TimerEvent: {}
+[80.534627] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__functions.h\n'}
+[80.567100] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.h\n'}
+[80.599475] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__type_support.h\n'}
+[80.628757] (-) TimerEvent: {}
+[80.630736] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__functions.h\n'}
+[80.662280] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.h\n'}
+[80.693769] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__type_support.h\n'}
+[80.724974] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.h\n'}
+[80.728870] (-) TimerEvent: {}
+[80.759029] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.h\n'}
+[80.789754] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.h\n'}
+[80.823200] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__functions.h\n'}
+[80.829066] (-) TimerEvent: {}
+[80.855342] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.h\n'}
+[80.887476] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__type_support.h\n'}
+[80.918979] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__functions.h\n'}
+[80.929244] (-) TimerEvent: {}
+[80.950602] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.h\n'}
+[80.983535] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__type_support.h\n'}
+[81.029492] (-) TimerEvent: {}
+[81.036273] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.h\n'}
+[81.075525] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.h\n'}
+[81.107325] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_generator_c__visibility_control.h\n'}
+[81.129683] (-) TimerEvent: {}
+[81.140593] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.sh\n'}
+[81.173198] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.dsv\n'}
+[81.208848] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[81.229928] (-) TimerEvent: {}
+[81.242968] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_c.h\n'}
+[81.274139] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_c.h\n'}
+[81.306430] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[81.330122] (-) TimerEvent: {}
+[81.339585] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[81.370843] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_c.h\n'}
+[81.404211] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[81.430315] (-) TimerEvent: {}
+[81.438874] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.hpp\n'}
+[81.472456] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__builder.hpp\n'}
+[81.504810] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.hpp\n'}
+[81.530520] (-) TimerEvent: {}
+[81.536962] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__traits.hpp\n'}
+[81.569800] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__builder.hpp\n'}
+[81.601651] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.hpp\n'}
+[81.630716] (-) TimerEvent: {}
+[81.634125] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__traits.hpp\n'}
+[81.665700] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__builder.hpp\n'}
+[81.697693] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.hpp\n'}
+[81.728999] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__traits.hpp\n'}
+[81.730947] (-) TimerEvent: {}
+[81.761041] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__builder.hpp\n'}
+[81.792446] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.hpp\n'}
+[81.825434] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__traits.hpp\n'}
+[81.831219] (-) TimerEvent: {}
+[81.860238] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.hpp\n'}
+[81.891684] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.hpp\n'}
+[81.923839] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.hpp\n'}
+[81.931464] (-) TimerEvent: {}
+[81.955592] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__builder.hpp\n'}
+[81.987968] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.hpp\n'}
+[82.020442] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__traits.hpp\n'}
+[82.031608] (-) TimerEvent: {}
+[82.052322] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__builder.hpp\n'}
+[82.086031] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.hpp\n'}
+[82.119555] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__traits.hpp\n'}
+[82.131862] (-) TimerEvent: {}
+[82.151562] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.hpp\n'}
+[82.186338] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.hpp\n'}
+[82.222750] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.232130] (-) TimerEvent: {}
+[82.257983] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.289517] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.320912] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.332324] (-) TimerEvent: {}
+[82.353311] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.384162] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[82.416414] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[82.432553] (-) TimerEvent: {}
+[82.450462] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_c.h\n'}
+[82.484521] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_c.h\n'}
+[82.517202] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_c.h\n'}
+[82.532782] (-) TimerEvent: {}
+[82.548715] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[82.580775] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_c.h\n'}
+[82.612105] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_c.h\n'}
+[82.633056] (-) TimerEvent: {}
+[82.645220] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[82.679460] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.713024] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.733235] (-) TimerEvent: {}
+[82.744650] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.775816] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.807431] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.833506] (-) TimerEvent: {}
+[82.841132] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_cpp.hpp\n'}
+[82.872311] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.sh\n'}
+[82.904673] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.dsv\n'}
+[82.933718] (-) TimerEvent: {}
+[82.937560] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[82.970026] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[83.001736] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[83.033721] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[83.034284] (-) TimerEvent: {}
+[83.073503] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py\n'}
+[83.105963] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_c.c\n'}
+[83.134542] (-) TimerEvent: {}
+[83.138028] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[83.169729] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[83.202025] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py\n'}
+[83.234737] (-) TimerEvent: {}
+[83.235568] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py\n'}
+[83.270048] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera_s.c\n'}
+[83.301156] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py\n'}
+[83.332654] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu_s.c\n'}
+[83.334858] (-) TimerEvent: {}
+[83.365447] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py\n'}
+[83.395013] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to_s.c\n'}
+[83.427062] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py\n'}
+[83.435166] (-) TimerEvent: {}
+[83.459484] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates_s.c\n'}
+[83.492484] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/libprototype__rosidl_generator_py.so\n'}
+[83.524413] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py\n'}
+[83.535350] (-) TimerEvent: {}
+[83.556431] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py\n'}
+[83.588524] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle_s.c\n'}
+[83.619400] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py\n'}
+[83.635595] (-) TimerEvent: {}
+[83.652284] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food_s.c\n'}
+[83.684219] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.715923] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.735868] (-) TimerEvent: {}
+[83.748567] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.781222] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.782705] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.784243] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[83.785008] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.idl\n'}
+[83.818097] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.idl\n'}
+[83.836114] (-) TimerEvent: {}
+[83.849974] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.idl\n'}
+[83.882784] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.idl\n'}
+[83.914230] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.idl\n'}
+[83.936348] (-) TimerEvent: {}
+[83.946913] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.idl\n'}
+[83.979720] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.action\n'}
+[83.980908] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.action\n'}
+[83.982088] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.action\n'}
+[83.983176] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.action\n'}
+[83.984109] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.msg\n'}
+[83.985117] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.msg\n'}
+[83.986274] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/package_run_dependencies/prototype\n'}
+[84.018243] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/parent_prefix_path/prototype\n'}
+[84.036667] (-) TimerEvent: {}
+[84.050451] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.sh\n'}
+[84.081884] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.dsv\n'}
+[84.115013] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.sh\n'}
+[84.136920] (-) TimerEvent: {}
+[84.148616] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.dsv\n'}
+[84.181138] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.bash\n'}
+[84.213106] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.sh\n'}
+[84.237091] (-) TimerEvent: {}
+[84.245209] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.zsh\n'}
+[84.278114] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.dsv\n'}
+[84.313277] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.dsv\n'}
+[84.337295] (-) TimerEvent: {}
+[84.348809] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/packages/prototype\n'}
+[84.382308] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake-extras.cmake\n'}
+[84.416407] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[84.437478] (-) TimerEvent: {}
+[84.448710] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[84.480195] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[84.513777] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[84.537667] (-) TimerEvent: {}
+[84.546259] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[84.577868] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[84.611007] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig.cmake\n'}
+[84.637867] (-) TimerEvent: {}
+[84.642999] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig-version.cmake\n'}
+[84.674400] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.xml\n'}
+[84.706725] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_c.so\n'}
+[84.711533] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_c.so" to ""\n'}
+[84.712952] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so\n'}
+[84.717996] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[84.719157] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so\n'}
+[84.724124] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[84.724836] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so\n'}
+[84.727903] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so" to ""\n'}
+[84.728553] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so\n'}
+[84.731464] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so" to ""\n'}
+[84.732101] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so\n'}
+[84.735921] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[84.736598] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so\n'}
+[84.737984] (-) TimerEvent: {}
+[84.740290] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so" to ""\n'}
+[84.838226] (-) TimerEvent: {}
+[84.939031] (-) TimerEvent: {}
+[84.981382] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype'...\n"}
+[84.982927] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py'...\n"}
+[84.983940] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action'...\n"}
+[84.984965] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py'...\n"}
+[84.986050] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py'...\n"}
+[84.987063] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py'...\n"}
+[84.987805] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py'...\n"}
+[84.988698] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py'...\n"}
+[84.990143] (prototype) StdoutLine: {'line': b"Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg'...\n"}
+[84.991202] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py'...\n"}
+[84.992244] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py'...\n"}
+[84.993265] (prototype) StdoutLine: {'line': b"Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py'...\n"}
+[85.008255] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_py.so\n'}
+[85.012207] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_py.so" to ""\n'}
+[85.013013] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport.cmake\n'}
+[85.014493] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport-noconfig.cmake\n'}
+[85.016311] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[85.018127] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[85.019908] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cppExport.cmake\n'}
+[85.021629] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[85.023414] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[85.025169] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport.cmake\n'}
+[85.026676] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[85.028091] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport.cmake\n'}
+[85.029440] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[85.030799] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[85.032201] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[85.033831] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport.cmake\n'}
+[85.035487] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[85.037019] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport.cmake\n'}
+[85.038374] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport-noconfig.cmake\n'}
+[85.039105] (-) TimerEvent: {}
+[85.046207] (prototype) CommandEnded: {'returncode': 0}
+[85.139351] (-) TimerEvent: {}
+[85.240485] (-) TimerEvent: {}
+[85.341767] (-) TimerEvent: {}
+[85.442505] (-) TimerEvent: {}
+[85.543299] (-) TimerEvent: {}
+[85.644116] (-) TimerEvent: {}
+[85.744848] (-) TimerEvent: {}
+[85.845782] (-) TimerEvent: {}
+[85.946458] (-) TimerEvent: {}
+[86.006492] (prototype) JobEnded: {'identifier': 'prototype', 'rc': 0}
+[86.010284] (-) EventReactorShutdown: {}

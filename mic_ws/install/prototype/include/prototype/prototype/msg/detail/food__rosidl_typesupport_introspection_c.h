@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_typesupport_introspection_c/prototype/msg/detail/food__rosidl_typesupport_introspection_c.h

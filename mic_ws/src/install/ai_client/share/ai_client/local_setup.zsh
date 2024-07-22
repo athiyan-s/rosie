@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/ai_client/ament_cmake_environment_hooks/local_setup.zsh

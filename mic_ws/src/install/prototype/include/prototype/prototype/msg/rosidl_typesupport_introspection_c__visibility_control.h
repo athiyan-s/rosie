@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_typesupport_introspection_c/prototype/msg/rosidl_typesupport_introspection_c__visibility_control.h

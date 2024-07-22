@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/prototype/launch/camera_local.launch.py

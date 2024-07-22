@@ -1,0 +1,11 @@
+{
+  "package_name": "prototype",
+  "non_idl_tuples": [
+    "/home/rosie/main_ws/dev_ws/src/prototype:action/SendCoordinates.action",
+    "/home/rosie/main_ws/dev_ws/src/prototype:action/GoTo.action",
+    "/home/rosie/main_ws/dev_ws/src/prototype:action/FoodMenu.action",
+    "/home/rosie/main_ws/dev_ws/src/prototype:action/AiCamera.action",
+    "/home/rosie/main_ws/dev_ws/src/prototype:msg/Food.msg",
+    "/home/rosie/main_ws/dev_ws/src/prototype:msg/DistanceAngle.msg"
+  ]
+}

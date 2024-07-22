@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_cpp.hpp

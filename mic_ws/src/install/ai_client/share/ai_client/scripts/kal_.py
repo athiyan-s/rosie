@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/ai_client/scripts/kal_.py

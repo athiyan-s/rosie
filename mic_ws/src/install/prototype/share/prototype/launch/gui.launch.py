@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/prototype/launch/gui.launch.py

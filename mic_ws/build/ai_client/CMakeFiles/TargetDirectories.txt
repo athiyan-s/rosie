@@ -1,0 +1,11 @@
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/uninstall.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/ai_client_uninstall.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/ament_cmake_python_symlink_ai_client.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/ament_cmake_python_build_ai_client_egg.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/test.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/edit_cache.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/rebuild_cache.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/list_install_components.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/install.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/install/local.dir
+/home/rosievoice/main_ws/mic_ws/build/ai_client/CMakeFiles/install/strip.dir

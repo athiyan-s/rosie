@@ -1,0 +1,6 @@
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:action/SendCoordinates.idl
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:action/GoTo.idl
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:action/FoodMenu.idl
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:action/AiCamera.idl
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:msg/Food.idl
+/home/rosie/main_ws/dev_ws/build/prototype/rosidl_adapter/prototype:msg/DistanceAngle.idl

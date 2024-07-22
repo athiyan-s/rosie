@@ -1,0 +1,11 @@
+{
+  "package_name": "prototype",
+  "non_idl_tuples": [
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:action/SendCoordinates.action",
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:action/GoTo.action",
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:action/FoodMenu.action",
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:action/AiCamera.action",
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:msg/Food.msg",
+    "/home/rosievoice/main_ws/mic_ws/src/prototype:msg/DistanceAngle.msg"
+  ]
+}

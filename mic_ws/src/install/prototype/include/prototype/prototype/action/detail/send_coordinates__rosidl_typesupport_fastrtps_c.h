@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_typesupport_fastrtps_c/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/ai_client/ament_cmake_core/ai_clientConfig-version.cmake

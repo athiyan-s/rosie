@@ -1,0 +1,296 @@
+[0.453s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.453s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbcb40340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbcc88a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbcc88a60>>, mixin_verb=('build',))
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.153s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosievoice/main_ws/mic_ws'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extensions ['ignore', 'ignore_ament_install']
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extension 'ignore'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extension 'ignore_ament_install'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extensions ['colcon_pkg']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extension 'colcon_pkg'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extensions ['colcon_meta']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extension 'colcon_meta'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extensions ['ros']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/ai_client) by extension 'ros'
+[1.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ai_client' with type 'ros.ament_cmake' and name 'ai_client'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extension 'ignore'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extension 'ignore_ament_install'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extensions ['colcon_pkg']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extension 'colcon_pkg'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extensions ['colcon_meta']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extension 'colcon_meta'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extensions ['ros']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/prototype) by extension 'ros'
+[1.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/prototype' with type 'ros.ament_cmake' and name 'prototype'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'ignore_ament_install'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['colcon_pkg']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'colcon_pkg'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['colcon_meta']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'colcon_meta'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['ros']
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'ros'
+[1.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['cmake', 'python']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'cmake'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'python'
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extensions ['python_setup_py']
+[1.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15) by extension 'python_setup_py'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['ignore', 'ignore_ament_install']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'ignore'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'ignore_ament_install'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['ros']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'ros'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['cmake', 'python']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'cmake'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'python'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extensions ['python_setup_py']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/am) by extension 'python_setup_py'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'ignore'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['colcon_pkg']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'colcon_pkg'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['colcon_meta']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'colcon_meta'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['ros']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'ros'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['cmake', 'python']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'cmake'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'python'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extensions ['python_setup_py']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/conf) by extension 'python_setup_py'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['ignore', 'ignore_ament_install']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'ignore'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['colcon_meta']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'colcon_meta'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['ros']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'ros'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['cmake', 'python']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'cmake'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'python'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extensions ['python_setup_py']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph) by extension 'python_setup_py'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['ignore', 'ignore_ament_install']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['colcon_meta']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'colcon_meta'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['ros']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'ros'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['cmake', 'python']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'cmake'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'python'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extensions ['python_setup_py']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/graph/phones) by extension 'python_setup_py'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['ignore', 'ignore_ament_install']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'ignore'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'ignore_ament_install'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['colcon_pkg']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'colcon_pkg'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['colcon_meta']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'colcon_meta'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['ros']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'ros'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['cmake', 'python']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'cmake'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'python'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extensions ['python_setup_py']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/vosk-model-small-en-us-0.15/ivector) by extension 'python_setup_py'
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_args' from command line to 'None'
+[1.492s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_target' from command line to 'None'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_clean_cache' from command line to 'False'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_clean_first' from command line to 'False'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'cmake_force_configure' from command line to 'False'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'ament_cmake_args' from command line to 'None'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'catkin_cmake_args' from command line to 'None'
+[1.493s] Level 5:colcon.colcon_core.verb:set package 'ai_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.493s] DEBUG:colcon.colcon_core.verb:Building package 'ai_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosievoice/main_ws/mic_ws/build/ai_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosievoice/main_ws/mic_ws/install/ai_client', 'merge_install': False, 'path': '/home/rosievoice/main_ws/mic_ws/src/ai_client', 'symlink_install': True, 'test_result_base': None}
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_args' from command line to 'None'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_target' from command line to 'None'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_clean_cache' from command line to 'False'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_clean_first' from command line to 'False'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'cmake_force_configure' from command line to 'False'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'ament_cmake_args' from command line to 'None'
+[1.496s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'catkin_cmake_args' from command line to 'None'
+[1.497s] Level 5:colcon.colcon_core.verb:set package 'prototype' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.497s] DEBUG:colcon.colcon_core.verb:Building package 'prototype' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosievoice/main_ws/mic_ws/build/prototype', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosievoice/main_ws/mic_ws/install/prototype', 'merge_install': False, 'path': '/home/rosievoice/main_ws/mic_ws/src/prototype', 'symlink_install': True, 'test_result_base': None}
+[1.497s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.503s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosievoice/main_ws/mic_ws/src/ai_client' with build type 'ament_cmake'
+[1.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosievoice/main_ws/mic_ws/src/ai_client'
+[1.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosievoice/main_ws/mic_ws/src/prototype' with build type 'ament_cmake'
+[1.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosievoice/main_ws/mic_ws/src/prototype'
+[1.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosievoice/main_ws/mic_ws/build/ai_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/build/ai_client -- -j4 -l4
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosievoice/main_ws/mic_ws/build/prototype': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/build/prototype -- -j4 -l4
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosievoice/main_ws/mic_ws/build/ai_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/build/ai_client -- -j4 -l4
+[3.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosievoice/main_ws/mic_ws/build/ai_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/build/ai_client
+[3.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosievoice/main_ws/mic_ws/build/prototype' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosievoice/main_ws/mic_ws/build/prototype -- -j4 -l4
+[3.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ai_client)
+[3.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosievoice/main_ws/mic_ws/build/ai_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/build/ai_client
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client' for CMake module files
+[3.901s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client' for CMake config files
+[3.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_client', 'cmake_prefix_path')
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.ps1'
+[3.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.dsv'
+[3.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.sh'
+[3.915s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib'
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/bin'
+[3.918s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib/pkgconfig/ai_client.pc'
+[3.920s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib/python3.10/site-packages'
+[3.921s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/bin'
+[3.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.ps1'
+[3.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.sh'
+[3.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.bash'
+[3.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.zsh'
+[3.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosievoice/main_ws/mic_ws/install/ai_client/share/colcon-core/packages/ai_client)
+[4.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ai_client)
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client' for CMake module files
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client' for CMake config files
+[4.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('ai_client', 'cmake_prefix_path')
+[4.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.ps1'
+[4.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.dsv'
+[4.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/hook/cmake_prefix_path.sh'
+[4.118s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib'
+[4.119s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/bin'
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib/pkgconfig/ai_client.pc'
+[4.121s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/lib/python3.10/site-packages'
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/ai_client/bin'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.ps1'
+[4.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.dsv'
+[4.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.sh'
+[4.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.bash'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/ai_client/share/ai_client/package.zsh'
+[4.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosievoice/main_ws/mic_ws/install/ai_client/share/colcon-core/packages/ai_client)
+[4.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosievoice/main_ws/mic_ws/build/prototype': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/build/prototype
+[5.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prototype)
+[5.154s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype' for CMake module files
+[5.159s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype' for CMake config files
+[5.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosievoice/main_ws/mic_ws/build/prototype' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosievoice/main_ws/mic_ws/build/prototype
+[5.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype', 'cmake_prefix_path')
+[5.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.ps1'
+[5.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.dsv'
+[5.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.sh'
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib'
+[5.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype', 'ld_library_path_lib')
+[5.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.ps1'
+[5.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.dsv'
+[5.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.sh'
+[5.183s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/bin'
+[5.184s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib/pkgconfig/prototype.pc'
+[5.185s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib/python3.10/site-packages'
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/bin'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.ps1'
+[5.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.dsv'
+[5.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.sh'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.bash'
+[5.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.zsh'
+[5.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosievoice/main_ws/mic_ws/install/prototype/share/colcon-core/packages/prototype)
+[6.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prototype)
+[6.093s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype' for CMake module files
+[6.101s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype' for CMake config files
+[6.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype', 'cmake_prefix_path')
+[6.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.ps1'
+[6.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.dsv'
+[6.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/cmake_prefix_path.sh'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib'
+[6.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype', 'ld_library_path_lib')
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.ps1'
+[6.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.dsv'
+[6.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/hook/ld_library_path_lib.sh'
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/bin'
+[6.126s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib/pkgconfig/prototype.pc'
+[6.127s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/lib/python3.10/site-packages'
+[6.129s] Level 1:colcon.colcon_core.environment:checking '/home/rosievoice/main_ws/mic_ws/install/prototype/bin'
+[6.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.ps1'
+[6.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.dsv'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.sh'
+[6.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.bash'
+[6.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.zsh'
+[6.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosievoice/main_ws/mic_ws/install/prototype/share/colcon-core/packages/prototype)
+[6.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.151s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.179s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.180s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosievoice/main_ws/mic_ws/install/local_setup.ps1'
+[6.279s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosievoice/main_ws/mic_ws/install/_local_setup_util_ps1.py'
+[6.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosievoice/main_ws/mic_ws/install/setup.ps1'
+[6.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosievoice/main_ws/mic_ws/install/local_setup.sh'
+[6.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosievoice/main_ws/mic_ws/install/_local_setup_util_sh.py'
+[6.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosievoice/main_ws/mic_ws/install/setup.sh'
+[6.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosievoice/main_ws/mic_ws/install/local_setup.bash'
+[6.313s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosievoice/main_ws/mic_ws/install/setup.bash'
+[6.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosievoice/main_ws/mic_ws/install/local_setup.zsh'
+[6.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosievoice/main_ws/mic_ws/install/setup.zsh'

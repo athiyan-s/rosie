@@ -1,0 +1,1236 @@
+[0.000000] (-) TimerEvent: {}
+[0.001675] (prototype) JobQueued: {'identifier': 'prototype', 'dependencies': OrderedDict()}
+[0.002205] (prototype) JobStarted: {'identifier': 'prototype'}
+[0.073381] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'cmake'}
+[0.074364] (prototype) Command: {'cmd': ['/usr/bin/cmake', '/home/rosie/main_ws/dev_ws/src/prototype', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rosie/main_ws/dev_ws/install/prototype'], 'cwd': '/home/rosie/main_ws/dev_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosie'), ('SSH_CLIENT', '192.168.29.105 50156 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosie'), ('OLDPWD', '/home/rosie'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aa19d971-3cd2-462b-9911-146eaebe573f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/rosie/.local/bin:/opt/ros/humble/bin:/home/rosie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2a0499b5bd.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosie/main_ws/dev_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.105 50156 192.168.29.254 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099154] (-) TimerEvent: {}
+[0.200138] (-) TimerEvent: {}
+[0.300901] (-) TimerEvent: {}
+[0.401916] (-) TimerEvent: {}
+[0.502727] (-) TimerEvent: {}
+[0.603680] (-) TimerEvent: {}
+[0.704869] (-) TimerEvent: {}
+[0.806043] (-) TimerEvent: {}
+[0.906966] (-) TimerEvent: {}
+[0.983720] (prototype) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.007158] (-) TimerEvent: {}
+[1.107919] (-) TimerEvent: {}
+[1.208891] (-) TimerEvent: {}
+[1.309835] (-) TimerEvent: {}
+[1.410766] (-) TimerEvent: {}
+[1.511698] (-) TimerEvent: {}
+[1.612493] (-) TimerEvent: {}
+[1.713406] (-) TimerEvent: {}
+[1.717699] (prototype) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.767847] (prototype) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.813615] (-) TimerEvent: {}
+[1.914560] (-) TimerEvent: {}
+[2.015411] (-) TimerEvent: {}
+[2.116229] (-) TimerEvent: {}
+[2.121882] (prototype) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.148813] (prototype) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.153377] (prototype) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.156216] (prototype) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.173938] (prototype) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.216401] (-) TimerEvent: {}
+[2.317199] (-) TimerEvent: {}
+[2.417934] (-) TimerEvent: {}
+[2.518688] (-) TimerEvent: {}
+[2.543526] (prototype) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.572354] (prototype) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.573337] (prototype) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.574955] (prototype) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.607385] (prototype) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.618878] (-) TimerEvent: {}
+[2.719587] (-) TimerEvent: {}
+[2.820374] (-) TimerEvent: {}
+[2.921347] (-) TimerEvent: {}
+[3.022046] (-) TimerEvent: {}
+[3.122998] (-) TimerEvent: {}
+[3.224126] (-) TimerEvent: {}
+[3.243976] (prototype) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.324336] (-) TimerEvent: {}
+[3.425025] (-) TimerEvent: {}
+[3.526065] (-) TimerEvent: {}
+[3.538643] (prototype) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.626187] (-) TimerEvent: {}
+[3.726967] (-) TimerEvent: {}
+[3.790157] (prototype) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.807447] (prototype) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[3.827247] (-) TimerEvent: {}
+[3.927926] (-) TimerEvent: {}
+[4.028589] (-) TimerEvent: {}
+[4.129245] (-) TimerEvent: {}
+[4.229920] (-) TimerEvent: {}
+[4.250123] (prototype) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.330099] (-) TimerEvent: {}
+[4.430795] (-) TimerEvent: {}
+[4.459864] (prototype) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.499451] (prototype) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.530968] (-) TimerEvent: {}
+[4.562421] (prototype) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.631203] (-) TimerEvent: {}
+[4.704999] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.731366] (-) TimerEvent: {}
+[4.801697] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.831539] (-) TimerEvent: {}
+[4.932256] (-) TimerEvent: {}
+[5.032947] (-) TimerEvent: {}
+[5.133736] (-) TimerEvent: {}
+[5.234422] (-) TimerEvent: {}
+[5.335103] (-) TimerEvent: {}
+[5.341527] (prototype) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.435303] (-) TimerEvent: {}
+[5.450484] (prototype) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.535493] (-) TimerEvent: {}
+[5.636181] (-) TimerEvent: {}
+[5.736905] (-) TimerEvent: {}
+[5.837663] (-) TimerEvent: {}
+[5.938357] (-) TimerEvent: {}
+[6.039079] (-) TimerEvent: {}
+[6.072632] (prototype) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.094653] (prototype) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[6.139319] (-) TimerEvent: {}
+[6.239994] (-) TimerEvent: {}
+[6.287766] (prototype) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[6.340159] (-) TimerEvent: {}
+[6.360958] (prototype) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.440340] (-) TimerEvent: {}
+[6.541065] (-) TimerEvent: {}
+[6.641951] (-) TimerEvent: {}
+[6.724475] (prototype) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.726065] (prototype) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.742131] (-) TimerEvent: {}
+[6.842839] (-) TimerEvent: {}
+[6.943541] (-) TimerEvent: {}
+[7.044267] (-) TimerEvent: {}
+[7.062246] (prototype) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.066626] (prototype) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.144433] (-) TimerEvent: {}
+[7.245160] (-) TimerEvent: {}
+[7.345848] (-) TimerEvent: {}
+[7.446530] (-) TimerEvent: {}
+[7.547211] (-) TimerEvent: {}
+[7.647901] (-) TimerEvent: {}
+[7.748577] (-) TimerEvent: {}
+[7.849281] (-) TimerEvent: {}
+[7.950011] (-) TimerEvent: {}
+[8.050674] (-) TimerEvent: {}
+[8.151363] (-) TimerEvent: {}
+[8.252105] (-) TimerEvent: {}
+[8.352772] (-) TimerEvent: {}
+[8.453523] (-) TimerEvent: {}
+[8.554242] (-) TimerEvent: {}
+[8.654927] (-) TimerEvent: {}
+[8.755633] (-) TimerEvent: {}
+[8.852757] (prototype) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[8.855780] (-) TimerEvent: {}
+[8.956474] (-) TimerEvent: {}
+[8.979347] (prototype) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.985901] (prototype) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.986554] (prototype) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.033205] (prototype) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.056632] (-) TimerEvent: {}
+[9.157298] (-) TimerEvent: {}
+[9.258062] (-) TimerEvent: {}
+[9.359020] (-) TimerEvent: {}
+[9.459738] (-) TimerEvent: {}
+[9.560469] (-) TimerEvent: {}
+[9.661113] (-) TimerEvent: {}
+[9.761726] (-) TimerEvent: {}
+[9.862382] (-) TimerEvent: {}
+[9.963113] (-) TimerEvent: {}
+[10.063785] (-) TimerEvent: {}
+[10.164588] (-) TimerEvent: {}
+[10.265641] (-) TimerEvent: {}
+[10.366430] (-) TimerEvent: {}
+[10.467436] (-) TimerEvent: {}
+[10.526922] (prototype) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[10.567622] (-) TimerEvent: {}
+[10.668289] (-) TimerEvent: {}
+[10.768971] (-) TimerEvent: {}
+[10.869673] (-) TimerEvent: {}
+[10.970342] (-) TimerEvent: {}
+[11.071196] (-) TimerEvent: {}
+[11.172295] (-) TimerEvent: {}
+[11.273275] (-) TimerEvent: {}
+[11.373922] (-) TimerEvent: {}
+[11.474626] (-) TimerEvent: {}
+[11.575412] (-) TimerEvent: {}
+[11.676153] (-) TimerEvent: {}
+[11.776865] (-) TimerEvent: {}
+[11.877881] (-) TimerEvent: {}
+[11.978687] (-) TimerEvent: {}
+[12.079343] (-) TimerEvent: {}
+[12.180320] (-) TimerEvent: {}
+[12.190926] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.280500] (-) TimerEvent: {}
+[12.381245] (-) TimerEvent: {}
+[12.481999] (-) TimerEvent: {}
+[12.583035] (-) TimerEvent: {}
+[12.683784] (-) TimerEvent: {}
+[12.784570] (-) TimerEvent: {}
+[12.794363] (prototype) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.879822] (prototype) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[12.884774] (-) TimerEvent: {}
+[12.895197] (prototype) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.985303] (-) TimerEvent: {}
+[12.994783] (prototype) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.995589] (prototype) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.996030] (prototype) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.996858] (prototype) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[13.070788] (prototype) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.085455] (-) TimerEvent: {}
+[13.186093] (-) TimerEvent: {}
+[13.286849] (-) TimerEvent: {}
+[13.310105] (prototype) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.387024] (-) TimerEvent: {}
+[13.487694] (-) TimerEvent: {}
+[13.517351] (prototype) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.587867] (-) TimerEvent: {}
+[13.655737] (prototype) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.675894] (prototype) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.686559] (prototype) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.688009] (-) TimerEvent: {}
+[13.761320] (prototype) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.784543] (prototype) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.788177] (-) TimerEvent: {}
+[13.889330] (-) TimerEvent: {}
+[13.990008] (-) TimerEvent: {}
+[14.037070] (prototype) StdoutLine: {'line': b'-- Generating done\n'}
+[14.052451] (prototype) StdoutLine: {'line': b'-- Build files have been written to: /home/rosie/main_ws/dev_ws/build/prototype\n'}
+[14.090296] (-) TimerEvent: {}
+[14.105222] (prototype) CommandEnded: {'returncode': 0}
+[14.107156] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'build'}
+[14.109761] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosie/main_ws/dev_ws/build/prototype', '--', '-j4', '-l4'], 'cwd': '/home/rosie/main_ws/dev_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosie'), ('SSH_CLIENT', '192.168.29.105 50156 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosie'), ('OLDPWD', '/home/rosie'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aa19d971-3cd2-462b-9911-146eaebe573f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/rosie/.local/bin:/opt/ros/humble/bin:/home/rosie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2a0499b5bd.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosie/main_ws/dev_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.105 50156 192.168.29.254 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.190522] (-) TimerEvent: {}
+[14.291497] (-) TimerEvent: {}
+[14.315368] (prototype) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.348884] (prototype) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.377581] (prototype) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_prototype\n'}
+[14.391652] (-) TimerEvent: {}
+[14.493703] (-) TimerEvent: {}
+[14.594574] (-) TimerEvent: {}
+[14.710486] (-) TimerEvent: {}
+[14.811289] (-) TimerEvent: {}
+[14.912025] (-) TimerEvent: {}
+[15.012821] (-) TimerEvent: {}
+[15.117026] (-) TimerEvent: {}
+[15.221254] (-) TimerEvent: {}
+[15.325267] (-) TimerEvent: {}
+[15.425998] (-) TimerEvent: {}
+[15.527731] (-) TimerEvent: {}
+[15.630268] (-) TimerEvent: {}
+[15.731756] (-) TimerEvent: {}
+[15.773191] (prototype) StdoutLine: {'line': b'running egg_info\n'}
+[15.775855] (prototype) StdoutLine: {'line': b'creating prototype.egg-info\n'}
+[15.776667] (prototype) StdoutLine: {'line': b'writing prototype.egg-info/PKG-INFO\n'}
+[15.778448] (prototype) StdoutLine: {'line': b'writing dependency_links to prototype.egg-info/dependency_links.txt\n'}
+[15.779429] (prototype) StdoutLine: {'line': b'writing top-level names to prototype.egg-info/top_level.txt\n'}
+[15.781642] (prototype) StdoutLine: {'line': b"writing manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[15.792597] (prototype) StdoutLine: {'line': b"reading manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[15.797037] (prototype) StdoutLine: {'line': b"writing manifest file 'prototype.egg-info/SOURCES.txt'\n"}
+[15.831973] (-) TimerEvent: {}
+[15.932701] (-) TimerEvent: {}
+[15.946807] (prototype) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_prototype_egg\n'}
+[16.032880] (-) TimerEvent: {}
+[16.133683] (-) TimerEvent: {}
+[16.234370] (-) TimerEvent: {}
+[16.335023] (-) TimerEvent: {}
+[16.435689] (-) TimerEvent: {}
+[16.537348] (-) TimerEvent: {}
+[16.638047] (-) TimerEvent: {}
+[16.738702] (-) TimerEvent: {}
+[16.839362] (-) TimerEvent: {}
+[16.939997] (-) TimerEvent: {}
+[17.040651] (-) TimerEvent: {}
+[17.141333] (-) TimerEvent: {}
+[17.241976] (-) TimerEvent: {}
+[17.342710] (-) TimerEvent: {}
+[17.443403] (-) TimerEvent: {}
+[17.544130] (-) TimerEvent: {}
+[17.644777] (-) TimerEvent: {}
+[17.745468] (-) TimerEvent: {}
+[17.846179] (-) TimerEvent: {}
+[17.946866] (-) TimerEvent: {}
+[18.047517] (-) TimerEvent: {}
+[18.148201] (-) TimerEvent: {}
+[18.248876] (-) TimerEvent: {}
+[18.349647] (-) TimerEvent: {}
+[18.450336] (-) TimerEvent: {}
+[18.551022] (-) TimerEvent: {}
+[18.651707] (-) TimerEvent: {}
+[18.752442] (-) TimerEvent: {}
+[18.853201] (-) TimerEvent: {}
+[18.953892] (-) TimerEvent: {}
+[19.054555] (-) TimerEvent: {}
+[19.155211] (-) TimerEvent: {}
+[19.255935] (-) TimerEvent: {}
+[19.356633] (-) TimerEvent: {}
+[19.457364] (-) TimerEvent: {}
+[19.558094] (-) TimerEvent: {}
+[19.658761] (-) TimerEvent: {}
+[19.759643] (-) TimerEvent: {}
+[19.861297] (-) TimerEvent: {}
+[19.963644] (-) TimerEvent: {}
+[20.064834] (-) TimerEvent: {}
+[20.163852] (prototype) StdoutLine: {'line': b'[  2%] Built target prototype__cpp\n'}
+[20.165044] (-) TimerEvent: {}
+[20.215459] (prototype) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.265226] (-) TimerEvent: {}
+[20.308159] (prototype) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.369347] (-) TimerEvent: {}
+[20.396773] (prototype) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[20.469536] (-) TimerEvent: {}
+[20.572666] (-) TimerEvent: {}
+[20.674763] (-) TimerEvent: {}
+[20.683861] (prototype) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/send_coordinates__functions.c.o\x1b[0m\n'}
+[20.774962] (-) TimerEvent: {}
+[20.877316] (-) TimerEvent: {}
+[20.979981] (-) TimerEvent: {}
+[21.081919] (-) TimerEvent: {}
+[21.183657] (-) TimerEvent: {}
+[21.285454] (-) TimerEvent: {}
+[21.387300] (-) TimerEvent: {}
+[21.489286] (-) TimerEvent: {}
+[21.542247] (prototype) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/go_to__functions.c.o\x1b[0m\n'}
+[21.589485] (-) TimerEvent: {}
+[21.691425] (-) TimerEvent: {}
+[21.793262] (-) TimerEvent: {}
+[21.894176] (-) TimerEvent: {}
+[21.995061] (-) TimerEvent: {}
+[22.095981] (-) TimerEvent: {}
+[22.196898] (-) TimerEvent: {}
+[22.259518] (prototype) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/food_menu__functions.c.o\x1b[0m\n'}
+[22.297195] (-) TimerEvent: {}
+[22.398195] (-) TimerEvent: {}
+[22.499965] (-) TimerEvent: {}
+[22.601844] (-) TimerEvent: {}
+[22.703712] (-) TimerEvent: {}
+[22.805744] (-) TimerEvent: {}
+[22.907722] (-) TimerEvent: {}
+[22.950174] (prototype) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/ai_camera__functions.c.o\x1b[0m\n'}
+[23.007932] (-) TimerEvent: {}
+[23.108706] (-) TimerEvent: {}
+[23.209692] (-) TimerEvent: {}
+[23.310643] (-) TimerEvent: {}
+[23.411574] (-) TimerEvent: {}
+[23.512914] (-) TimerEvent: {}
+[23.614405] (-) TimerEvent: {}
+[23.703373] (prototype) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/food__functions.c.o\x1b[0m\n'}
+[23.714607] (-) TimerEvent: {}
+[23.816674] (-) TimerEvent: {}
+[23.850858] (prototype) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[23.916857] (-) TimerEvent: {}
+[23.983837] (prototype) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/distance_angle__functions.c.o\x1b[0m\n'}
+[24.017128] (-) TimerEvent: {}
+[24.118764] (-) TimerEvent: {}
+[24.221517] (-) TimerEvent: {}
+[24.253608] (prototype) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libprototype__rosidl_generator_c.so\x1b[0m\n'}
+[24.321745] (-) TimerEvent: {}
+[24.422691] (-) TimerEvent: {}
+[24.524339] (-) TimerEvent: {}
+[24.526359] (prototype) StdoutLine: {'line': b'[ 18%] Built target prototype__rosidl_generator_c\n'}
+[24.577804] (prototype) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[24.624562] (-) TimerEvent: {}
+[24.725799] (-) TimerEvent: {}
+[24.826864] (-) TimerEvent: {}
+[24.928387] (-) TimerEvent: {}
+[25.029350] (-) TimerEvent: {}
+[25.131335] (-) TimerEvent: {}
+[25.233724] (-) TimerEvent: {}
+[25.335820] (-) TimerEvent: {}
+[25.383165] (prototype) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[25.436144] (-) TimerEvent: {}
+[25.537472] (-) TimerEvent: {}
+[25.638476] (-) TimerEvent: {}
+[25.739539] (-) TimerEvent: {}
+[25.840651] (-) TimerEvent: {}
+[25.941900] (-) TimerEvent: {}
+[26.042902] (-) TimerEvent: {}
+[26.143972] (-) TimerEvent: {}
+[26.245319] (-) TimerEvent: {}
+[26.346390] (-) TimerEvent: {}
+[26.447462] (-) TimerEvent: {}
+[26.548789] (-) TimerEvent: {}
+[26.650069] (-) TimerEvent: {}
+[26.751649] (-) TimerEvent: {}
+[26.801878] (prototype) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[26.851840] (-) TimerEvent: {}
+[26.952891] (-) TimerEvent: {}
+[27.053946] (-) TimerEvent: {}
+[27.155176] (-) TimerEvent: {}
+[27.256337] (-) TimerEvent: {}
+[27.350770] (prototype) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/go_to__type_support.cpp.o\x1b[0m\n'}
+[27.356542] (-) TimerEvent: {}
+[27.458263] (-) TimerEvent: {}
+[27.560195] (-) TimerEvent: {}
+[27.661977] (-) TimerEvent: {}
+[27.763792] (-) TimerEvent: {}
+[27.865883] (-) TimerEvent: {}
+[27.967988] (-) TimerEvent: {}
+[28.070057] (-) TimerEvent: {}
+[28.172300] (-) TimerEvent: {}
+[28.275106] (-) TimerEvent: {}
+[28.377383] (-) TimerEvent: {}
+[28.479821] (-) TimerEvent: {}
+[28.581734] (-) TimerEvent: {}
+[28.683693] (-) TimerEvent: {}
+[28.785895] (-) TimerEvent: {}
+[28.887044] (-) TimerEvent: {}
+[28.988026] (-) TimerEvent: {}
+[29.089150] (-) TimerEvent: {}
+[29.190184] (-) TimerEvent: {}
+[29.291208] (-) TimerEvent: {}
+[29.392242] (-) TimerEvent: {}
+[29.491416] (prototype) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/go_to__type_support.cpp.o\x1b[0m\n'}
+[29.492242] (-) TimerEvent: {}
+[29.594268] (-) TimerEvent: {}
+[29.695367] (-) TimerEvent: {}
+[29.796339] (-) TimerEvent: {}
+[29.898391] (-) TimerEvent: {}
+[30.000682] (-) TimerEvent: {}
+[30.102777] (-) TimerEvent: {}
+[30.203782] (-) TimerEvent: {}
+[30.305205] (-) TimerEvent: {}
+[30.406193] (-) TimerEvent: {}
+[30.505519] (prototype) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/food_menu__type_support.cpp.o\x1b[0m\n'}
+[30.506671] (-) TimerEvent: {}
+[30.607613] (-) TimerEvent: {}
+[30.708625] (-) TimerEvent: {}
+[30.768049] (prototype) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/go_to__type_support.cpp.o\x1b[0m\n'}
+[30.808897] (-) TimerEvent: {}
+[30.911202] (-) TimerEvent: {}
+[31.013390] (-) TimerEvent: {}
+[31.114490] (-) TimerEvent: {}
+[31.215968] (-) TimerEvent: {}
+[31.316991] (-) TimerEvent: {}
+[31.418115] (-) TimerEvent: {}
+[31.519332] (-) TimerEvent: {}
+[31.620761] (-) TimerEvent: {}
+[31.632265] (prototype) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/send_coordinates__type_support_c.cpp.o\x1b[0m\n'}
+[31.721061] (-) TimerEvent: {}
+[31.825661] (-) TimerEvent: {}
+[31.926693] (-) TimerEvent: {}
+[32.027946] (-) TimerEvent: {}
+[32.129058] (-) TimerEvent: {}
+[32.230689] (-) TimerEvent: {}
+[32.331926] (-) TimerEvent: {}
+[32.433451] (-) TimerEvent: {}
+[32.534852] (-) TimerEvent: {}
+[32.636006] (-) TimerEvent: {}
+[32.737249] (-) TimerEvent: {}
+[32.838693] (-) TimerEvent: {}
+[32.939870] (-) TimerEvent: {}
+[33.041208] (-) TimerEvent: {}
+[33.142491] (-) TimerEvent: {}
+[33.243551] (-) TimerEvent: {}
+[33.344742] (-) TimerEvent: {}
+[33.445808] (-) TimerEvent: {}
+[33.546956] (-) TimerEvent: {}
+[33.647995] (-) TimerEvent: {}
+[33.707595] (prototype) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/food_menu__type_support.cpp.o\x1b[0m\n'}
+[33.748259] (-) TimerEvent: {}
+[33.787463] (prototype) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[33.848472] (-) TimerEvent: {}
+[33.949287] (-) TimerEvent: {}
+[34.050557] (-) TimerEvent: {}
+[34.151785] (-) TimerEvent: {}
+[34.253048] (-) TimerEvent: {}
+[34.354524] (-) TimerEvent: {}
+[34.405706] (prototype) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/go_to__type_support_c.cpp.o\x1b[0m\n'}
+[34.454816] (-) TimerEvent: {}
+[34.556122] (-) TimerEvent: {}
+[34.657379] (-) TimerEvent: {}
+[34.659273] (prototype) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/food_menu__type_support.cpp.o\x1b[0m\n'}
+[34.757692] (-) TimerEvent: {}
+[34.858768] (-) TimerEvent: {}
+[34.968757] (-) TimerEvent: {}
+[35.070001] (-) TimerEvent: {}
+[35.171177] (-) TimerEvent: {}
+[35.272406] (-) TimerEvent: {}
+[35.377224] (-) TimerEvent: {}
+[35.478174] (-) TimerEvent: {}
+[35.580394] (-) TimerEvent: {}
+[35.683416] (-) TimerEvent: {}
+[35.787582] (-) TimerEvent: {}
+[35.890291] (-) TimerEvent: {}
+[35.993232] (-) TimerEvent: {}
+[36.095864] (-) TimerEvent: {}
+[36.198157] (-) TimerEvent: {}
+[36.301418] (-) TimerEvent: {}
+[36.404146] (-) TimerEvent: {}
+[36.506564] (-) TimerEvent: {}
+[36.608807] (-) TimerEvent: {}
+[36.711221] (-) TimerEvent: {}
+[36.813435] (-) TimerEvent: {}
+[36.915561] (-) TimerEvent: {}
+[37.018174] (-) TimerEvent: {}
+[37.052400] (prototype) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/food__type_support.cpp.o\x1b[0m\n'}
+[37.118434] (-) TimerEvent: {}
+[37.195169] (prototype) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/food_menu__type_support_c.cpp.o\x1b[0m\n'}
+[37.218708] (-) TimerEvent: {}
+[37.320729] (-) TimerEvent: {}
+[37.422967] (-) TimerEvent: {}
+[37.525172] (-) TimerEvent: {}
+[37.627479] (-) TimerEvent: {}
+[37.690248] (prototype) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[37.727758] (-) TimerEvent: {}
+[37.830231] (-) TimerEvent: {}
+[37.932429] (-) TimerEvent: {}
+[38.034651] (-) TimerEvent: {}
+[38.136960] (-) TimerEvent: {}
+[38.239153] (-) TimerEvent: {}
+[38.341954] (-) TimerEvent: {}
+[38.444484] (-) TimerEvent: {}
+[38.547071] (-) TimerEvent: {}
+[38.649542] (-) TimerEvent: {}
+[38.714622] (prototype) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[38.749908] (-) TimerEvent: {}
+[38.827020] (prototype) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[38.850128] (-) TimerEvent: {}
+[38.952821] (-) TimerEvent: {}
+[39.055033] (-) TimerEvent: {}
+[39.156768] (-) TimerEvent: {}
+[39.258953] (-) TimerEvent: {}
+[39.361557] (-) TimerEvent: {}
+[39.464119] (-) TimerEvent: {}
+[39.566257] (-) TimerEvent: {}
+[39.668957] (-) TimerEvent: {}
+[39.765616] (prototype) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/ai_camera__type_support_c.cpp.o\x1b[0m\n'}
+[39.769311] (-) TimerEvent: {}
+[39.872119] (-) TimerEvent: {}
+[39.983682] (-) TimerEvent: {}
+[40.085986] (-) TimerEvent: {}
+[40.188245] (-) TimerEvent: {}
+[40.291244] (-) TimerEvent: {}
+[40.400145] (-) TimerEvent: {}
+[40.501406] (-) TimerEvent: {}
+[40.602668] (-) TimerEvent: {}
+[40.706471] (-) TimerEvent: {}
+[40.739009] (prototype) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[40.806747] (-) TimerEvent: {}
+[40.907799] (-) TimerEvent: {}
+[41.008937] (-) TimerEvent: {}
+[41.110225] (-) TimerEvent: {}
+[41.116016] (prototype) StdoutLine: {'line': b'[ 45%] Built target prototype__rosidl_typesupport_cpp\n'}
+[41.170870] (prototype) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/food__type_support.cpp.o\x1b[0m\n'}
+[41.210517] (-) TimerEvent: {}
+[41.311706] (-) TimerEvent: {}
+[41.412908] (-) TimerEvent: {}
+[41.514258] (-) TimerEvent: {}
+[41.615408] (-) TimerEvent: {}
+[41.660956] (prototype) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[41.715687] (-) TimerEvent: {}
+[41.817700] (-) TimerEvent: {}
+[41.918653] (-) TimerEvent: {}
+[42.019835] (-) TimerEvent: {}
+[42.120922] (-) TimerEvent: {}
+[42.222417] (-) TimerEvent: {}
+[42.323776] (-) TimerEvent: {}
+[42.425053] (-) TimerEvent: {}
+[42.526607] (-) TimerEvent: {}
+[42.558365] (prototype) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/food__type_support.cpp.o\x1b[0m\n'}
+[42.611148] (prototype) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/food__type_support_c.cpp.o\x1b[0m\n'}
+[42.626826] (-) TimerEvent: {}
+[42.727708] (-) TimerEvent: {}
+[42.828520] (-) TimerEvent: {}
+[42.929351] (-) TimerEvent: {}
+[43.030266] (-) TimerEvent: {}
+[43.131092] (-) TimerEvent: {}
+[43.232511] (-) TimerEvent: {}
+[43.333546] (-) TimerEvent: {}
+[43.434670] (-) TimerEvent: {}
+[43.535737] (-) TimerEvent: {}
+[43.637066] (-) TimerEvent: {}
+[43.738200] (-) TimerEvent: {}
+[43.753889] (prototype) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/distance_angle__type_support_c.cpp.o\x1b[0m\n'}
+[43.838459] (-) TimerEvent: {}
+[43.939763] (-) TimerEvent: {}
+[44.041019] (-) TimerEvent: {}
+[44.142264] (-) TimerEvent: {}
+[44.167761] (prototype) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[44.242474] (-) TimerEvent: {}
+[44.343754] (-) TimerEvent: {}
+[44.445257] (-) TimerEvent: {}
+[44.547067] (-) TimerEvent: {}
+[44.649149] (-) TimerEvent: {}
+[44.709326] (prototype) StdoutLine: {'line': b'[ 53%] Built target prototype__rosidl_typesupport_introspection_cpp\n'}
+[44.749333] (-) TimerEvent: {}
+[44.769744] (prototype) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[44.849555] (-) TimerEvent: {}
+[44.950652] (-) TimerEvent: {}
+[44.974780] (prototype) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[45.050958] (-) TimerEvent: {}
+[45.153451] (-) TimerEvent: {}
+[45.242953] (prototype) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[45.253645] (-) TimerEvent: {}
+[45.355803] (-) TimerEvent: {}
+[45.457754] (-) TimerEvent: {}
+[45.559711] (-) TimerEvent: {}
+[45.661749] (-) TimerEvent: {}
+[45.763857] (-) TimerEvent: {}
+[45.866033] (-) TimerEvent: {}
+[45.968076] (-) TimerEvent: {}
+[46.070062] (-) TimerEvent: {}
+[46.172224] (-) TimerEvent: {}
+[46.273390] (-) TimerEvent: {}
+[46.296257] (prototype) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[46.373595] (-) TimerEvent: {}
+[46.476027] (-) TimerEvent: {}
+[46.578440] (-) TimerEvent: {}
+[46.680737] (-) TimerEvent: {}
+[46.782580] (-) TimerEvent: {}
+[46.804219] (prototype) StdoutLine: {'line': b'[ 59%] Built target prototype__rosidl_typesupport_fastrtps_c\n'}
+[46.882764] (-) TimerEvent: {}
+[46.983607] (-) TimerEvent: {}
+[47.084450] (-) TimerEvent: {}
+[47.186185] (-) TimerEvent: {}
+[47.287981] (-) TimerEvent: {}
+[47.388900] (-) TimerEvent: {}
+[47.489704] (-) TimerEvent: {}
+[47.590462] (-) TimerEvent: {}
+[47.691336] (prototype) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[47.692292] (-) TimerEvent: {}
+[47.794599] (-) TimerEvent: {}
+[47.896631] (-) TimerEvent: {}
+[47.998129] (-) TimerEvent: {}
+[48.052100] (prototype) StdoutLine: {'line': b'[ 60%] Built target prototype__rosidl_typesupport_fastrtps_cpp\n'}
+[48.098279] (-) TimerEvent: {}
+[48.200373] (-) TimerEvent: {}
+[48.301952] (-) TimerEvent: {}
+[48.403118] (-) TimerEvent: {}
+[48.476983] (prototype) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/send_coordinates__type_support.cpp.o\x1b[0m\n'}
+[48.484194] (prototype) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/go_to__type_support.cpp.o\x1b[0m\n'}
+[48.487820] (prototype) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/food_menu__type_support.cpp.o\x1b[0m\n'}
+[48.503458] (-) TimerEvent: {}
+[48.604451] (-) TimerEvent: {}
+[48.706256] (-) TimerEvent: {}
+[48.783804] (prototype) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/ai_camera__type_support.cpp.o\x1b[0m\n'}
+[48.791823] (prototype) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/food__type_support.cpp.o\x1b[0m\n'}
+[48.806481] (-) TimerEvent: {}
+[48.819126] (prototype) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/distance_angle__type_support.cpp.o\x1b[0m\n'}
+[48.906695] (-) TimerEvent: {}
+[49.008296] (-) TimerEvent: {}
+[49.067445] (prototype) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libprototype__rosidl_typesupport_c.so\x1b[0m\n'}
+[49.108469] (-) TimerEvent: {}
+[49.209321] (-) TimerEvent: {}
+[49.241184] (prototype) StdoutLine: {'line': b'[ 70%] Built target prototype__rosidl_typesupport_c\n'}
+[49.309448] (-) TimerEvent: {}
+[49.410070] (-) TimerEvent: {}
+[49.510747] (-) TimerEvent: {}
+[49.611375] (-) TimerEvent: {}
+[49.712119] (-) TimerEvent: {}
+[49.813288] (-) TimerEvent: {}
+[49.914243] (-) TimerEvent: {}
+[49.929580] (prototype) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/go_to__type_support.c.o\x1b[0m\n'}
+[49.930783] (prototype) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/ai_camera__type_support.c.o\x1b[0m\n'}
+[49.933570] (prototype) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/food_menu__type_support.c.o\x1b[0m\n'}
+[49.936256] (prototype) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/send_coordinates__type_support.c.o\x1b[0m\n'}
+[50.014443] (-) TimerEvent: {}
+[50.116132] (-) TimerEvent: {}
+[50.218411] (-) TimerEvent: {}
+[50.223610] (prototype) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/food__type_support.c.o\x1b[0m\n'}
+[50.224668] (prototype) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/distance_angle__type_support.c.o\x1b[0m\n'}
+[50.319095] (-) TimerEvent: {}
+[50.410002] (prototype) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libprototype__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[50.419298] (-) TimerEvent: {}
+[50.520071] (-) TimerEvent: {}
+[50.564577] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype__rosidl_typesupport_introspection_c\n'}
+[50.620271] (-) TimerEvent: {}
+[50.651450] (prototype) StdoutLine: {'line': b'[ 80%] Built target prototype\n'}
+[50.720481] (-) TimerEvent: {}
+[50.732686] (prototype) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[50.820665] (-) TimerEvent: {}
+[50.921389] (-) TimerEvent: {}
+[51.022037] (-) TimerEvent: {}
+[51.122682] (-) TimerEvent: {}
+[51.223458] (-) TimerEvent: {}
+[51.324421] (-) TimerEvent: {}
+[51.425066] (-) TimerEvent: {}
+[51.525803] (-) TimerEvent: {}
+[51.626536] (-) TimerEvent: {}
+[51.727155] (-) TimerEvent: {}
+[51.827781] (-) TimerEvent: {}
+[51.928403] (-) TimerEvent: {}
+[52.029048] (-) TimerEvent: {}
+[52.129716] (-) TimerEvent: {}
+[52.230324] (-) TimerEvent: {}
+[52.330938] (-) TimerEvent: {}
+[52.431551] (-) TimerEvent: {}
+[52.532197] (-) TimerEvent: {}
+[52.632828] (-) TimerEvent: {}
+[52.733584] (-) TimerEvent: {}
+[52.834251] (-) TimerEvent: {}
+[52.934966] (-) TimerEvent: {}
+[53.035732] (-) TimerEvent: {}
+[53.136382] (-) TimerEvent: {}
+[53.237042] (-) TimerEvent: {}
+[53.337703] (-) TimerEvent: {}
+[53.438351] (-) TimerEvent: {}
+[53.538969] (-) TimerEvent: {}
+[53.639585] (-) TimerEvent: {}
+[53.740203] (-) TimerEvent: {}
+[53.840815] (-) TimerEvent: {}
+[53.941460] (-) TimerEvent: {}
+[54.042076] (-) TimerEvent: {}
+[54.142707] (-) TimerEvent: {}
+[54.243349] (-) TimerEvent: {}
+[54.343959] (-) TimerEvent: {}
+[54.444585] (-) TimerEvent: {}
+[54.545215] (-) TimerEvent: {}
+[54.645832] (-) TimerEvent: {}
+[54.746464] (-) TimerEvent: {}
+[54.847160] (-) TimerEvent: {}
+[54.947775] (-) TimerEvent: {}
+[55.048718] (-) TimerEvent: {}
+[55.149392] (-) TimerEvent: {}
+[55.250008] (-) TimerEvent: {}
+[55.350601] (-) TimerEvent: {}
+[55.451272] (-) TimerEvent: {}
+[55.552066] (-) TimerEvent: {}
+[55.652704] (-) TimerEvent: {}
+[55.753375] (-) TimerEvent: {}
+[55.854004] (-) TimerEvent: {}
+[55.954641] (-) TimerEvent: {}
+[56.055276] (-) TimerEvent: {}
+[56.155908] (-) TimerEvent: {}
+[56.256535] (-) TimerEvent: {}
+[56.357254] (-) TimerEvent: {}
+[56.457866] (-) TimerEvent: {}
+[56.558495] (-) TimerEvent: {}
+[56.659105] (-) TimerEvent: {}
+[56.759731] (-) TimerEvent: {}
+[56.860347] (-) TimerEvent: {}
+[56.960970] (-) TimerEvent: {}
+[57.061604] (-) TimerEvent: {}
+[57.162263] (-) TimerEvent: {}
+[57.262889] (-) TimerEvent: {}
+[57.363548] (-) TimerEvent: {}
+[57.464173] (-) TimerEvent: {}
+[57.564892] (-) TimerEvent: {}
+[57.665907] (-) TimerEvent: {}
+[57.766556] (-) TimerEvent: {}
+[57.867179] (-) TimerEvent: {}
+[57.967802] (-) TimerEvent: {}
+[58.068436] (-) TimerEvent: {}
+[58.169062] (-) TimerEvent: {}
+[58.269739] (-) TimerEvent: {}
+[58.370379] (-) TimerEvent: {}
+[58.471096] (-) TimerEvent: {}
+[58.571753] (-) TimerEvent: {}
+[58.672478] (-) TimerEvent: {}
+[58.773209] (-) TimerEvent: {}
+[58.873877] (-) TimerEvent: {}
+[58.974527] (-) TimerEvent: {}
+[59.075124] (-) TimerEvent: {}
+[59.175798] (-) TimerEvent: {}
+[59.276405] (-) TimerEvent: {}
+[59.377031] (-) TimerEvent: {}
+[59.477671] (-) TimerEvent: {}
+[59.578284] (-) TimerEvent: {}
+[59.678897] (-) TimerEvent: {}
+[59.779519] (-) TimerEvent: {}
+[59.880118] (-) TimerEvent: {}
+[59.980780] (-) TimerEvent: {}
+[60.081642] (-) TimerEvent: {}
+[60.182232] (-) TimerEvent: {}
+[60.282846] (-) TimerEvent: {}
+[60.383473] (-) TimerEvent: {}
+[60.484206] (-) TimerEvent: {}
+[60.584875] (-) TimerEvent: {}
+[60.685630] (-) TimerEvent: {}
+[60.786341] (-) TimerEvent: {}
+[60.886977] (-) TimerEvent: {}
+[60.987721] (-) TimerEvent: {}
+[61.088870] (-) TimerEvent: {}
+[61.190194] (-) TimerEvent: {}
+[61.243714] (prototype) StdoutLine: {'line': b'[ 81%] Built target prototype__py\n'}
+[61.290362] (-) TimerEvent: {}
+[61.334463] (prototype) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_send_coordinates_s.c.o\x1b[0m\n'}
+[61.336229] (prototype) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_food_menu_s.c.o\x1b[0m\n'}
+[61.337627] (prototype) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_go_to_s.c.o\x1b[0m\n'}
+[61.350502] (prototype) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_ai_camera_s.c.o\x1b[0m\n'}
+[61.390608] (-) TimerEvent: {}
+[61.491415] (-) TimerEvent: {}
+[61.592289] (-) TimerEvent: {}
+[61.694187] (-) TimerEvent: {}
+[61.795523] (-) TimerEvent: {}
+[61.896358] (-) TimerEvent: {}
+[61.998620] (-) TimerEvent: {}
+[62.100555] (-) TimerEvent: {}
+[62.202999] (-) TimerEvent: {}
+[62.302894] (prototype) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_food_s.c.o\x1b[0m\n'}
+[62.303591] (-) TimerEvent: {}
+[62.305817] (prototype) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_distance_angle_s.c.o\x1b[0m\n'}
+[62.403864] (-) TimerEvent: {}
+[62.504683] (-) TimerEvent: {}
+[62.605616] (-) TimerEvent: {}
+[62.706816] (-) TimerEvent: {}
+[62.802232] (prototype) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/libprototype__rosidl_generator_py.so\x1b[0m\n'}
+[62.806955] (-) TimerEvent: {}
+[62.907816] (-) TimerEvent: {}
+[63.008735] (-) TimerEvent: {}
+[63.024973] (prototype) StdoutLine: {'line': b'[ 91%] Built target prototype__rosidl_generator_py\n'}
+[63.109032] (-) TimerEvent: {}
+[63.116598] (prototype) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[63.120084] (prototype) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[63.120925] (prototype) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[63.209249] (-) TimerEvent: {}
+[63.309992] (-) TimerEvent: {}
+[63.411615] (-) TimerEvent: {}
+[63.513344] (-) TimerEvent: {}
+[63.614326] (-) TimerEvent: {}
+[63.715226] (-) TimerEvent: {}
+[63.817140] (-) TimerEvent: {}
+[63.919409] (-) TimerEvent: {}
+[64.021878] (-) TimerEvent: {}
+[64.123102] (-) TimerEvent: {}
+[64.194322] (prototype) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[64.199630] (prototype) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[64.200627] (prototype) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[64.223363] (-) TimerEvent: {}
+[64.324390] (-) TimerEvent: {}
+[64.425833] (-) TimerEvent: {}
+[64.527122] (-) TimerEvent: {}
+[64.540908] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_c__pyext\n'}
+[64.545803] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_fastrtps_c__pyext\n'}
+[64.551040] (prototype) StdoutLine: {'line': b'[100%] Built target prototype__rosidl_typesupport_introspection_c__pyext\n'}
+[64.596894] (prototype) CommandEnded: {'returncode': 0}
+[64.627363] (-) TimerEvent: {}
+[64.728113] (-) TimerEvent: {}
+[64.829952] (-) TimerEvent: {}
+[64.930664] (-) TimerEvent: {}
+[65.031308] (-) TimerEvent: {}
+[65.132161] (-) TimerEvent: {}
+[65.232842] (-) TimerEvent: {}
+[65.333504] (-) TimerEvent: {}
+[65.429208] (prototype) JobProgress: {'identifier': 'prototype', 'progress': 'install'}
+[65.433728] (-) TimerEvent: {}
+[65.466528] (prototype) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rosie/main_ws/dev_ws/build/prototype'], 'cwd': '/home/rosie/main_ws/dev_ws/build/prototype', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rosie'), ('SSH_CLIENT', '192.168.29.105 50156 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rosie'), ('OLDPWD', '/home/rosie'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-aa19d971-3cd2-462b-9911-146eaebe573f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rosie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rosie/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/home/rosie/.local/bin:/opt/ros/humble/bin:/home/rosie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('IP_MULTICAST_LOOP', 'ON'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2a0499b5bd.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosie/main_ws/dev_ws/build/prototype'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.29.105 50156 192.168.29.254 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[65.499577] (prototype) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[65.502276] (prototype) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[65.506784] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/camera.yaml\n'}
+[65.533926] (-) TimerEvent: {}
+[65.538268] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/ekf.yaml\n'}
+[65.568163] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/ekf_map.yaml\n'}
+[65.598311] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/joystick.yaml\n'}
+[65.628128] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/motor_control.yaml\n'}
+[65.634091] (-) TimerEvent: {}
+[65.659069] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/nn/mobilenet.json\n'}
+[65.689654] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/nn/segmentation.json\n'}
+[65.719600] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/nn/yolo.json\n'}
+[65.734301] (-) TimerEvent: {}
+[65.750875] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/rgbd.yaml\n'}
+[65.780824] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/spatial_bb.yaml\n'}
+[65.811161] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//config/twist_mux.yaml\n'}
+[65.834472] (-) TimerEvent: {}
+[65.843282] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/battery_state.launch.py\n'}
+[65.875627] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/camera.launch.py\n'}
+[65.904831] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/camera_local.launch.py\n'}
+[65.934493] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/camera_uncompressed_launch.py\n'}
+[65.935061] (-) TimerEvent: {}
+[65.966017] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/gui.launch.py\n'}
+[65.995444] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/hand_gesture.launch.py\n'}
+[66.025307] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/image_pro.py\n'}
+[66.035278] (-) TimerEvent: {}
+[66.055358] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/imu_launch.py\n'}
+[66.085898] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/joystick.launch.py\n'}
+[66.115944] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/laser_launch.py\n'}
+[66.135493] (-) TimerEvent: {}
+[66.146663] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/localization_launch.py\n'}
+[66.177454] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/main_launch.py\n'}
+[66.207732] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/motor_launch.py\n'}
+[66.235722] (-) TimerEvent: {}
+[66.238372] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/navigation.launch.py\n'}
+[66.270119] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/no_com_camera.launch.py\n'}
+[66.300518] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/rgbd_pcl.launch.py\n'}
+[66.330281] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/robot_localization_launch.py\n'}
+[66.335961] (-) TimerEvent: {}
+[66.363375] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/robotmodel.launch.py\n'}
+[66.393798] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/rtab_odom.launch.py\n'}
+[66.424431] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/rtabmap.launch.py\n'}
+[66.436150] (-) TimerEvent: {}
+[66.455107] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/rviz2_launch.py\n'}
+[66.486223] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/sensors_launch.py\n'}
+[66.536439] (-) TimerEvent: {}
+[66.594465] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/spatial_bb.launch.py\n'}
+[66.629021] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/spawn.launch.xml\n'}
+[66.636590] (-) TimerEvent: {}
+[66.659582] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/spawn_pos.launch.py\n'}
+[66.690150] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//launch/stereo.launch.py\n'}
+[66.721316] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//action/AiCamera.action\n'}
+[66.736791] (-) TimerEvent: {}
+[66.752937] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//action/FoodMenu.action\n'}
+[66.783847] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//action/GoTo.action\n'}
+[66.814428] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//action/SendCoordinates.action\n'}
+[66.837032] (-) TimerEvent: {}
+[66.846774] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//worlds/empty_world.world\n'}
+[66.879957] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//models/box_room/meshes/box_room.dae\n'}
+[66.911156] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//models/box_room/meshes/chambre.png\n'}
+[66.937242] (-) TimerEvent: {}
+[66.940980] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//models/model.config\n'}
+[66.971646] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//models/model.sdf\n'}
+[67.003122] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/camera.xacro\n'}
+[67.034221] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/hardware_interface.xacro\n'}
+[67.037407] (-) TimerEvent: {}
+[67.065109] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/joint_macros.xacro\n'}
+[67.095894] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/lidar.xacro\n'}
+[67.125651] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/link_macros.xacro\n'}
+[67.137654] (-) TimerEvent: {}
+[67.157297] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/prototype.xacro\n'}
+[67.188189] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//urdf/wheel.xacro\n'}
+[67.219333] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/camera.xacro\n'}
+[67.237843] (-) TimerEvent: {}
+[67.250785] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/hardware_interface.xacro\n'}
+[67.281365] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/joint_macros.xacro\n'}
+[67.311802] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/lidar.xacro\n'}
+[67.338017] (-) TimerEvent: {}
+[67.341672] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/link_macros.xacro\n'}
+[67.372770] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/prototype.xacro\n'}
+[67.403506] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//sambot/wheel.xacro\n'}
+[67.437500] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Dazzling.stl\n'}
+[67.438066] (-) TimerEvent: {}
+[67.469727] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Dbrakes2K.png\n'}
+[67.500308] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Dreaotherothertex2K.png\n'}
+[67.530075] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Dtire_rim_detail2Ktex.png\n'}
+[67.538261] (-) TimerEvent: {}
+[67.560145] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Material Base Color.png\n'}
+[67.590891] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Material.005 Base Color.png\n'}
+[67.621195] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Prototype_mesh(1).stl\n'}
+[67.638459] (-) TimerEvent: {}
+[67.652101] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Prototype_mesh(3).stl\n'}
+[67.682069] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Prototype_mesh.stl\n'}
+[67.712417] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/Wheels.dae\n'}
+[67.738662] (-) TimerEvent: {}
+[67.742432] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/blender_mesh.stl\n'}
+[67.772497] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane base.png\n'}
+[67.802215] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane stand.001.png\n'}
+[67.832432] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane.blend\n'}
+[67.838849] (-) TimerEvent: {}
+[67.862958] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane.blend1\n'}
+[67.893453] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane.dae\n'}
+[67.922480] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane_base.png\n'}
+[67.939080] (-) TimerEvent: {}
+[67.952037] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/crane_stand.png\n'}
+[67.982648] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/cute_cube.blend\n'}
+[68.012729] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/cute_cube.dae\n'}
+[68.039277] (-) TimerEvent: {}
+[68.042574] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/first wheel.blend\n'}
+[68.073354] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/gear color.png\n'}
+[68.102733] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/lambert3_baseColor.png\n'}
+[68.133002] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/motor .png\n'}
+[68.139526] (-) TimerEvent: {}
+[68.163337] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/prototype.blend\n'}
+[68.193252] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/prototype.dae\n'}
+[68.223648] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/sensors/realsense.dae\n'}
+[68.239717] (-) TimerEvent: {}
+[68.253878] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/sensors/rplidar.dae\n'}
+[68.284408] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/sensors/rplidartexture.png\n'}
+[68.314922] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/textures/lambert3_baseColor.png\n'}
+[68.339898] (-) TimerEvent: {}
+[68.346193] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/tinker.stl\n'}
+[68.376203] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/tire_rubber_2K_NRM.png\n'}
+[68.406317] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/tires/obj.mtl\n'}
+[68.437566] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//meshes/tires/tinker.obj\n'}
+[68.440046] (-) TimerEvent: {}
+[68.471327] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/__init__.py\n'}
+[68.502894] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/__pycache__/gesture_recognition.cpython-310.pyc\n'}
+[68.533477] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/__pycache__/robot_navigator.cpython-310.pyc\n'}
+[68.540231] (-) TimerEvent: {}
+[68.563626] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/action_client.py\n'}
+[68.594400] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/action_server.py\n'}
+[68.625617] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/battery.py\n'}
+[68.640421] (-) TimerEvent: {}
+[68.655929] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/battery_boot.py\n'}
+[68.686330] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/battery_test.py\n'}
+[68.715923] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/behaviours.py\n'}
+[68.740606] (-) TimerEvent: {}
+[68.747037] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/cvfpscalc.py\n'}
+[68.777169] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/data_gathering.py\n'}
+[68.807087] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/face.py\n'}
+[68.837678] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/gesture_recognition.py\n'}
+[68.840770] (-) TimerEvent: {}
+[68.867603] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/goal.py\n'}
+[68.897684] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/hand.py\n'}
+[68.928012] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/hand_sign_recognition.py\n'}
+[68.940975] (-) TimerEvent: {}
+[68.958661] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/map.py\n'}
+[68.989352] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/map_object.py\n'}
+[69.019665] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/move_laser.py\n'}
+[69.041200] (-) TimerEvent: {}
+[69.049748] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/move_shaft.py\n'}
+[69.080075] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/object_broadcast.py\n'}
+[69.110547] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/odom_base.py\n'}
+[69.140686] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/py_tree_server.py\n'}
+[69.141387] (-) TimerEvent: {}
+[69.171679] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/robot_navigator.py\n'}
+[69.201538] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/robotmodel.py\n'}
+[69.231652] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/service_velocity.py\n'}
+[69.241590] (-) TimerEvent: {}
+[69.262107] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/spatial.py\n'}
+[69.292398] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/string_sub.py\n'}
+[69.322644] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/test.py\n'}
+[69.341774] (-) TimerEvent: {}
+[69.352995] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/tf.py\n'}
+[69.383825] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/waiter.dot\n'}
+[69.413723] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/waiter.png\n'}
+[69.442004] (-) TimerEvent: {}
+[69.443609] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//scripts/waiter.svg\n'}
+[69.474333] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//rviz/localizer_rviz_config.rviz\n'}
+[69.506696] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//msg/DistanceAngle.msg\n'}
+[69.537532] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype//msg/Food.msg\n'}
+[69.542162] (-) TimerEvent: {}
+[69.568009] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/lib/prototype/move_laser.py\n'}
+[69.599132] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/lib/prototype/move_shaft.py\n'}
+[69.629003] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/lib/prototype/action_client.py\n'}
+[69.642363] (-) TimerEvent: {}
+[69.660456] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/ament_index/resource_index/rosidl_interfaces/prototype\n'}
+[69.695587] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/ai_camera.h\n'}
+[69.728001] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__functions.h\n'}
+[69.742571] (-) TimerEvent: {}
+[69.758676] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.h\n'}
+[69.789030] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__type_support.h\n'}
+[69.819593] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__functions.h\n'}
+[69.842769] (-) TimerEvent: {}
+[69.850201] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.h\n'}
+[69.882185] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__type_support.h\n'}
+[69.912279] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__functions.h\n'}
+[69.942948] (-) TimerEvent: {}
+[69.943764] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.h\n'}
+[69.974414] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__type_support.h\n'}
+[70.003782] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__functions.h\n'}
+[70.034521] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.h\n'}
+[70.043136] (-) TimerEvent: {}
+[70.065805] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__type_support.h\n'}
+[70.096748] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/food_menu.h\n'}
+[70.126862] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/go_to.h\n'}
+[70.143307] (-) TimerEvent: {}
+[70.182794] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/send_coordinates.h\n'}
+[70.216601] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__functions.h\n'}
+[70.243533] (-) TimerEvent: {}
+[70.248170] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.h\n'}
+[70.278904] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__type_support.h\n'}
+[70.309634] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__functions.h\n'}
+[70.339553] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.h\n'}
+[70.343708] (-) TimerEvent: {}
+[70.371428] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__type_support.h\n'}
+[70.404310] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/distance_angle.h\n'}
+[70.434068] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/food.h\n'}
+[70.443995] (-) TimerEvent: {}
+[70.466605] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/rosidl_generator_c__visibility_control.h\n'}
+[70.497236] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/library_path.sh\n'}
+[70.528156] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/library_path.dsv\n'}
+[70.544188] (-) TimerEvent: {}
+[70.562813] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[70.594983] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_c.h\n'}
+[70.625259] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_c.h\n'}
+[70.644372] (-) TimerEvent: {}
+[70.655759] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_c.h\n'}
+[70.685324] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[70.715067] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_c.h\n'}
+[70.744554] (-) TimerEvent: {}
+[70.745208] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[70.780326] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/ai_camera.hpp\n'}
+[70.812413] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__builder.hpp\n'}
+[70.842294] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.hpp\n'}
+[70.844704] (-) TimerEvent: {}
+[70.874698] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__traits.hpp\n'}
+[70.904687] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__builder.hpp\n'}
+[70.935783] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.hpp\n'}
+[70.944904] (-) TimerEvent: {}
+[70.966161] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__traits.hpp\n'}
+[70.996486] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__builder.hpp\n'}
+[71.026614] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.hpp\n'}
+[71.045161] (-) TimerEvent: {}
+[71.057708] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__traits.hpp\n'}
+[71.088846] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__builder.hpp\n'}
+[71.119286] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.hpp\n'}
+[71.145351] (-) TimerEvent: {}
+[71.149155] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__traits.hpp\n'}
+[71.180743] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/food_menu.hpp\n'}
+[71.210937] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/go_to.hpp\n'}
+[71.245566] (-) TimerEvent: {}
+[71.247480] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/send_coordinates.hpp\n'}
+[71.293366] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__builder.hpp\n'}
+[71.330787] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.hpp\n'}
+[71.345768] (-) TimerEvent: {}
+[71.375140] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__traits.hpp\n'}
+[71.417509] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__builder.hpp\n'}
+[71.445987] (-) TimerEvent: {}
+[71.454696] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.hpp\n'}
+[71.485955] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__traits.hpp\n'}
+[71.517366] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/distance_angle.hpp\n'}
+[71.546220] (-) TimerEvent: {}
+[71.547542] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/food.hpp\n'}
+[71.584068] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.616428] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.646410] (-) TimerEvent: {}
+[71.647875] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.683494] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.717480] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.746617] (-) TimerEvent: {}
+[71.748904] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.781301] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[71.813612] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_c.h\n'}
+[71.845713] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_c.h\n'}
+[71.846741] (-) TimerEvent: {}
+[71.876962] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_c.h\n'}
+[71.907678] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_c.h\n'}
+[71.938179] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_c.h\n'}
+[71.946928] (-) TimerEvent: {}
+[71.969313] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_c.h\n'}
+[72.007600] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[72.047183] (-) TimerEvent: {}
+[72.065764] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.119173] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.147608] (-) TimerEvent: {}
+[72.164291] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.217905] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.247681] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.248232] (-) TimerEvent: {}
+[72.279168] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_cpp.hpp\n'}
+[72.309568] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/pythonpath.sh\n'}
+[72.340063] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/pythonpath.dsv\n'}
+[72.348457] (-) TimerEvent: {}
+[72.372059] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[72.403289] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[72.432495] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[72.448671] (-) TimerEvent: {}
+[72.463829] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[72.501066] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py\n'}
+[72.532864] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_c.c\n'}
+[72.549004] (-) TimerEvent: {}
+[72.564258] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[72.595125] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[72.626048] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py\n'}
+[72.649272] (-) TimerEvent: {}
+[72.655895] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py\n'}
+[72.686373] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera_s.c\n'}
+[72.717183] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py\n'}
+[72.748566] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu_s.c\n'}
+[72.749377] (-) TimerEvent: {}
+[72.779158] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py\n'}
+[72.819442] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to_s.c\n'}
+[72.849613] (-) TimerEvent: {}
+[72.871014] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py\n'}
+[72.919269] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates_s.c\n'}
+[72.950025] (-) TimerEvent: {}
+[72.961154] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/libprototype__rosidl_generator_py.so\n'}
+[73.004001] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py\n'}
+[73.032839] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py\n'}
+[73.050213] (-) TimerEvent: {}
+[73.065343] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle_s.c\n'}
+[73.094885] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py\n'}
+[73.123755] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food_s.c\n'}
+[73.150426] (-) TimerEvent: {}
+[73.154289] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.185675] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.216445] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.248172] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.249690] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.250534] (-) TimerEvent: {}
+[73.251322] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[73.252050] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/SendCoordinates.idl\n'}
+[73.283841] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/GoTo.idl\n'}
+[73.314644] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/FoodMenu.idl\n'}
+[73.345719] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/AiCamera.idl\n'}
+[73.350709] (-) TimerEvent: {}
+[73.377343] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/msg/Food.idl\n'}
+[73.409315] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/msg/DistanceAngle.idl\n'}
+[73.440155] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/SendCoordinates.action\n'}
+[73.440940] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/GoTo.action\n'}
+[73.441961] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/FoodMenu.action\n'}
+[73.442847] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/action/AiCamera.action\n'}
+[73.443744] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/msg/Food.msg\n'}
+[73.444645] (prototype) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/msg/DistanceAngle.msg\n'}
+[73.445821] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/ament_index/resource_index/package_run_dependencies/prototype\n'}
+[73.450881] (-) TimerEvent: {}
+[73.476678] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/ament_index/resource_index/parent_prefix_path/prototype\n'}
+[73.507371] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/ament_prefix_path.sh\n'}
+[73.538543] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/ament_prefix_path.dsv\n'}
+[73.551124] (-) TimerEvent: {}
+[73.569388] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/path.sh\n'}
+[73.600127] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/environment/path.dsv\n'}
+[73.630546] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/local_setup.bash\n'}
+[73.651303] (-) TimerEvent: {}
+[73.661023] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/local_setup.sh\n'}
+[73.691062] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/local_setup.zsh\n'}
+[73.720859] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/local_setup.dsv\n'}
+[73.751305] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/package.dsv\n'}
+[73.751845] (-) TimerEvent: {}
+[73.783756] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/ament_index/resource_index/packages/prototype\n'}
+[73.815593] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/rosidl_cmake-extras.cmake\n'}
+[73.847932] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.852034] (-) TimerEvent: {}
+[73.879468] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[73.910717] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[73.941627] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[73.952225] (-) TimerEvent: {}
+[73.973328] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[74.004625] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[74.034807] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototypeConfig.cmake\n'}
+[74.052506] (-) TimerEvent: {}
+[74.065023] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototypeConfig-version.cmake\n'}
+[74.095423] (prototype) StdoutLine: {'line': b'-- Symlinking: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/package.xml\n'}
+[74.125250] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_generator_c.so\n'}
+[74.129749] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_generator_c.so" to ""\n'}
+[74.130412] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so\n'}
+[74.134027] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[74.134598] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so\n'}
+[74.138788] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[74.139430] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so\n'}
+[74.142556] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so" to ""\n'}
+[74.143162] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so\n'}
+[74.146028] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so" to ""\n'}
+[74.146605] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so\n'}
+[74.150463] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[74.151019] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so\n'}
+[74.152610] (-) TimerEvent: {}
+[74.154156] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so" to ""\n'}
+[74.252782] (-) TimerEvent: {}
+[74.353476] (-) TimerEvent: {}
+[74.383520] (prototype) StdoutLine: {'line': b"Listing '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype'...\n"}
+[74.384966] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py'...\n"}
+[74.385997] (prototype) StdoutLine: {'line': b"Listing '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action'...\n"}
+[74.386867] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py'...\n"}
+[74.387702] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py'...\n"}
+[74.389001] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py'...\n"}
+[74.389798] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py'...\n"}
+[74.390665] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py'...\n"}
+[74.391928] (prototype) StdoutLine: {'line': b"Listing '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg'...\n"}
+[74.393238] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py'...\n"}
+[74.394374] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py'...\n"}
+[74.395639] (prototype) StdoutLine: {'line': b"Compiling '/home/rosie/main_ws/dev_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py'...\n"}
+[74.410144] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_generator_py.so\n'}
+[74.413491] (prototype) StdoutLine: {'line': b'-- Set runtime path of "/home/rosie/main_ws/dev_ws/install/prototype/lib/libprototype__rosidl_generator_py.so" to ""\n'}
+[74.414102] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport.cmake\n'}
+[74.415360] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport-noconfig.cmake\n'}
+[74.416689] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[74.418053] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[74.419470] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cppExport.cmake\n'}
+[74.420837] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[74.422305] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[74.423765] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport.cmake\n'}
+[74.425203] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[74.426586] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport.cmake\n'}
+[74.427862] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[74.429320] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[74.430732] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[74.432059] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport.cmake\n'}
+[74.433366] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[74.434738] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport.cmake\n'}
+[74.435979] (prototype) StdoutLine: {'line': b'-- Installing: /home/rosie/main_ws/dev_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport-noconfig.cmake\n'}
+[74.443184] (prototype) CommandEnded: {'returncode': 0}
+[74.453788] (-) TimerEvent: {}
+[74.554592] (-) TimerEvent: {}
+[74.655371] (-) TimerEvent: {}
+[74.756030] (-) TimerEvent: {}
+[74.856838] (-) TimerEvent: {}
+[74.957522] (-) TimerEvent: {}
+[75.058114] (-) TimerEvent: {}
+[75.158711] (-) TimerEvent: {}
+[75.259322] (-) TimerEvent: {}
+[75.359898] (-) TimerEvent: {}
+[75.385990] (prototype) JobEnded: {'identifier': 'prototype', 'rc': 0}
+[75.389350] (-) EventReactorShutdown: {}

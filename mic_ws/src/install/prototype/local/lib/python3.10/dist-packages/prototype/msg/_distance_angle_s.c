@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_generator_py/prototype/msg/_distance_angle_s.c

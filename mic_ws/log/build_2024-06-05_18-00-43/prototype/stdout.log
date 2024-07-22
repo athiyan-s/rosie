@@ -1,0 +1,482 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosievoice/main_ws/mic_ws/build/prototype
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_symlink_prototype
+running egg_info
+creating prototype.egg-info
+writing prototype.egg-info/PKG-INFO
+writing dependency_links to prototype.egg-info/dependency_links.txt
+writing top-level names to prototype.egg-info/top_level.txt
+writing manifest file 'prototype.egg-info/SOURCES.txt'
+reading manifest file 'prototype.egg-info/SOURCES.txt'
+writing manifest file 'prototype.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_prototype_egg
+[  2%] Built target prototype__cpp
+[  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  8%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/send_coordinates__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/go_to__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/food_menu__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/action/detail/ai_camera__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/food__functions.c.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/send_coordinates__type_support.cpp.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_c.dir/rosidl_generator_c/prototype/msg/detail/distance_angle__functions.c.o[0m
+[ 18%] [32m[1mLinking C shared library libprototype__rosidl_generator_c.so[0m
+[ 18%] Built target prototype__rosidl_generator_c
+[ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/send_coordinates__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/send_coordinates__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/go_to__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/go_to__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/send_coordinates__type_support_c.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/food_menu__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/go_to__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/go_to__type_support_c.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/food_menu__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/action/ai_camera__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/food_menu__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/food_menu__type_support_c.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/food__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/action/detail/ai_camera__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/action/detail/dds_fastrtps/ai_camera__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/action/detail/ai_camera__type_support_c.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/prototype/msg/distance_angle__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libprototype__rosidl_typesupport_cpp.so[0m
+[ 45%] Built target prototype__rosidl_typesupport_cpp
+[ 46%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/food__type_support_c.cpp.o[0m
+[ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/food__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/food__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/prototype/msg/detail/distance_angle__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/prototype/msg/detail/distance_angle__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/prototype/msg/detail/dds_fastrtps/distance_angle__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_c.so[0m
+[ 56%] Built target prototype__rosidl_typesupport_fastrtps_c
+[ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 59%] [32m[1mLinking CXX shared library libprototype__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 60%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/send_coordinates__type_support.c.o[0m
+[ 61%] [32m[1mLinking CXX shared library libprototype__rosidl_typesupport_introspection_cpp.so[0m
+[ 61%] Built target prototype__rosidl_typesupport_fastrtps_cpp
+[ 63%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/go_to__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/food_menu__type_support.c.o[0m
+[ 64%] Built target prototype__rosidl_typesupport_introspection_cpp
+[ 66%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/action/detail/ai_camera__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/food__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/prototype/msg/detail/distance_angle__type_support.c.o[0m
+[ 70%] [32m[1mLinking C shared library libprototype__rosidl_typesupport_introspection_c.so[0m
+[ 70%] Built target prototype__rosidl_typesupport_introspection_c
+[ 71%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/go_to__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/ai_camera__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/send_coordinates__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/action/food_menu__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/food__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/prototype__rosidl_typesupport_c.dir/rosidl_typesupport_c/prototype/msg/distance_angle__type_support.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libprototype__rosidl_typesupport_c.so[0m
+[ 80%] Built target prototype__rosidl_typesupport_c
+[ 80%] Built target prototype
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target prototype__py
+[ 83%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_go_to_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_food_menu_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_send_coordinates_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/action/_ai_camera_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_food_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/prototype__rosidl_generator_py.dir/rosidl_generator_py/prototype/msg/_distance_angle_s.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/prototype/libprototype__rosidl_generator_py.so[0m
+[ 91%] Built target prototype__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/prototype__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/prototype/_prototype_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target prototype__rosidl_typesupport_c__pyext
+[100%] Built target prototype__rosidl_typesupport_introspection_c__pyext
+[100%] Built target prototype__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/camera.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/ekf_map.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/joystick.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/motor_control.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/mobilenet.json
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/segmentation.json
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/nn/yolo.json
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/rgbd.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/spatial_bb.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//config/twist_mux.yaml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/battery_state.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_local.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/camera_uncompressed_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/gui.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/hand_gesture.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/image_pro.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/imu_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/joystick.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/laser_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/localization_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/main_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/motor_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/navigation.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/no_com_camera.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rgbd_pcl.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robot_localization_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/robotmodel.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtab_odom.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rtabmap.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/rviz2_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/sensors_launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spatial_bb.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn.launch.xml
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/spawn_pos.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//launch/stereo.launch.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/AiCamera.action
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/FoodMenu.action
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/GoTo.action
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//action/SendCoordinates.action
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//worlds/empty_world.world
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/box_room.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/box_room/meshes/chambre.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.config
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//models/model.sdf
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/camera.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/hardware_interface.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/joint_macros.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/lidar.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/link_macros.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/prototype.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//urdf/wheel.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/camera.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/hardware_interface.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/joint_macros.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/lidar.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/link_macros.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/prototype.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//sambot/wheel.xacro
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dazzling.stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dbrakes2K.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dreaotherothertex2K.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Dtire_rim_detail2Ktex.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material Base Color.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Material.005 Base Color.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(1).stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh(3).stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Prototype_mesh.stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/Wheels.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/blender_mesh.stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane base.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane stand.001.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.blend1
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_base.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/crane_stand.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.blend
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/cute_cube.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/first wheel.blend
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/gear color.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/lambert3_baseColor.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/motor .png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.blend
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/prototype.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/realsense.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidar.dae
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/sensors/rplidartexture.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/textures/lambert3_baseColor.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tinker.stl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tire_rubber_2K_NRM.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/obj.mtl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//meshes/tires/tinker.obj
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__init__.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/gesture_recognition.cpython-310.pyc
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/__pycache__/robot_navigator.cpython-310.pyc
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_client.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/action_server.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_boot.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/battery_test.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/behaviours.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/cvfpscalc.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/data_gathering.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/face.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/gesture_recognition.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/goal.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/hand_sign_recognition.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/map_object.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_laser.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/move_shaft.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/object_broadcast.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/odom_base.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/py_tree_server.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robot_navigator.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/robotmodel.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/service_velocity.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/spatial.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/string_sub.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/test.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/tf.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.dot
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.png
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//scripts/waiter.svg
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//rviz/localizer_rviz_config.rviz
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/DistanceAngle.msg
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype//msg/Food.msg
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_laser.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/move_shaft.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/prototype/action_client.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/rosidl_interfaces/prototype
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__functions.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__type_support.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.sh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/library_path.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/ai_camera.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/food_menu.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/go_to.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/send_coordinates.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__builder.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__struct.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__traits.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/distance_angle.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/food.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/ai_camera__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/food_menu__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/distance_angle__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/include/prototype/prototype/msg/detail/food__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.sh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/pythonpath.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/_prototype_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/libprototype__rosidl_generator_py.so
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food_s.c
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/prototype_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.idl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.idl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.idl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.idl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.idl
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.idl
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/SendCoordinates.action
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/GoTo.action
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/FoodMenu.action
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/action/AiCamera.action
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/Food.msg
+-- Up-to-date symlink: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/msg/DistanceAngle.msg
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/package_run_dependencies/prototype
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/parent_prefix_path/prototype
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.sh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.sh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/environment/path.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.bash
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.sh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.zsh
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/local_setup.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.dsv
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/ament_index/resource_index/packages/prototype
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototypeConfig-version.cmake
+-- Symlinking: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/package.xml
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_c.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_c.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_c.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_typesupport_cpp.so" to ""
+Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/__init__.py'...
+Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/__init__.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_ai_camera.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_food_menu.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_go_to.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/action/_send_coordinates.py'...
+Listing '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/__init__.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_distance_angle.py'...
+Compiling '/home/rosievoice/main_ws/mic_ws/install/prototype/local/lib/python3.10/dist-packages/prototype/msg/_food.py'...
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_py.so
+-- Set runtime path of "/home/rosievoice/main_ws/mic_ws/install/prototype/lib/libprototype__rosidl_generator_py.so" to ""
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_cppExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/prototype__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport.cmake
+-- Installing: /home/rosievoice/main_ws/mic_ws/install/prototype/share/prototype/cmake/export_prototype__rosidl_generator_pyExport-noconfig.cmake

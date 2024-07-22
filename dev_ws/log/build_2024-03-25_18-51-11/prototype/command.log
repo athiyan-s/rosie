@@ -1,0 +1,6 @@
+Invoking command in '/home/rosie/main_ws/dev_ws/build/prototype': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosie/main_ws/dev_ws/src/prototype -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosie/main_ws/dev_ws/install/prototype
+Invoked command in '/home/rosie/main_ws/dev_ws/build/prototype' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosie/main_ws/dev_ws/src/prototype -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rosie/main_ws/dev_ws/install/prototype
+Invoking command in '/home/rosie/main_ws/dev_ws/build/prototype': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosie/main_ws/dev_ws/build/prototype -- -j4 -l4
+Invoked command in '/home/rosie/main_ws/dev_ws/build/prototype' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosie/main_ws/dev_ws/build/prototype -- -j4 -l4
+Invoking command in '/home/rosie/main_ws/dev_ws/build/prototype': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosie/main_ws/dev_ws/build/prototype
+Invoked command in '/home/rosie/main_ws/dev_ws/build/prototype' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosie/main_ws/dev_ws/build/prototype

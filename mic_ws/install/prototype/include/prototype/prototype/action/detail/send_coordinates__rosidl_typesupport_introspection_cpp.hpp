@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_typesupport_introspection_cpp/prototype/action/detail/send_coordinates__rosidl_typesupport_introspection_cpp.hpp

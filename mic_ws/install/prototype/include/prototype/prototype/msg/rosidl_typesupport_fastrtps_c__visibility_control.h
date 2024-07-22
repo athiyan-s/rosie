@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/build/prototype/rosidl_typesupport_fastrtps_c/prototype/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

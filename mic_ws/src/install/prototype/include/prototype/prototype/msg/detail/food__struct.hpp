@@ -1,0 +1,1 @@
+/home/rosievoice/main_ws/mic_ws/src/build/prototype/rosidl_generator_cpp/prototype/msg/detail/food__struct.hpp
